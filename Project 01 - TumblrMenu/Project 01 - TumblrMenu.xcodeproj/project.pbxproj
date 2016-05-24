@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		198A07AD1CF4B80600942E24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A07AC1CF4B80600942E24 /* AppDelegate.swift */; };
+		198A07AF1CF4B80600942E24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A07AE1CF4B80600942E24 /* ViewController.swift */; };
+		198A07B21CF4B80600942E24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198A07B01CF4B80600942E24 /* Main.storyboard */; };
+		198A07B41CF4B80600942E24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 198A07B31CF4B80600942E24 /* Assets.xcassets */; };
+		198A07B71CF4B80600942E24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198A07B51CF4B80600942E24 /* LaunchScreen.storyboard */; };
+		198A07C21CF4B80600942E24 /* Project_01___TumblrMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A07C11CF4B80600942E24 /* Project_01___TumblrMenuTests.swift */; };
+		198A07CD1CF4B80600942E24 /* Project_01___TumblrMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A07CC1CF4B80600942E24 /* Project_01___TumblrMenuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		198A07BE1CF4B80600942E24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 198A07A11CF4B80500942E24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 198A07A81CF4B80500942E24;
+			remoteInfo = "Project 01 - TumblrMenu";
+		};
+		198A07C91CF4B80600942E24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 198A07A11CF4B80500942E24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 198A07A81CF4B80500942E24;
+			remoteInfo = "Project 01 - TumblrMenu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		198A07A91CF4B80600942E24 /* Project 01 - TumblrMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 01 - TumblrMenu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		198A07AC1CF4B80600942E24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		198A07AE1CF4B80600942E24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		198A07B11CF4B80600942E24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		198A07B31CF4B80600942E24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		198A07B61CF4B80600942E24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		198A07B81CF4B80600942E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		198A07BD1CF4B80600942E24 /* Project 01 - TumblrMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 01 - TumblrMenuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		198A07C11CF4B80600942E24 /* Project_01___TumblrMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_01___TumblrMenuTests.swift"; sourceTree = "<group>"; };
+		198A07C31CF4B80600942E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		198A07C81CF4B80600942E24 /* Project 01 - TumblrMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 01 - TumblrMenuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		198A07CC1CF4B80600942E24 /* Project_01___TumblrMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_01___TumblrMenuUITests.swift"; sourceTree = "<group>"; };
+		198A07CE1CF4B80600942E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		198A07A61CF4B80500942E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		198A07BA1CF4B80600942E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		198A07C51CF4B80600942E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		198A07A01CF4B80500942E24 = {
+			isa = PBXGroup;
+			children = (
+				198A07AB1CF4B80600942E24 /* Project 01 - TumblrMenu */,
+				198A07C01CF4B80600942E24 /* Project 01 - TumblrMenuTests */,
+				198A07CB1CF4B80600942E24 /* Project 01 - TumblrMenuUITests */,
+				198A07AA1CF4B80600942E24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		198A07AA1CF4B80600942E24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				198A07A91CF4B80600942E24 /* Project 01 - TumblrMenu.app */,
+				198A07BD1CF4B80600942E24 /* Project 01 - TumblrMenuTests.xctest */,
+				198A07C81CF4B80600942E24 /* Project 01 - TumblrMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		198A07AB1CF4B80600942E24 /* Project 01 - TumblrMenu */ = {
+			isa = PBXGroup;
+			children = (
+				198A07AC1CF4B80600942E24 /* AppDelegate.swift */,
+				198A07AE1CF4B80600942E24 /* ViewController.swift */,
+				198A07B01CF4B80600942E24 /* Main.storyboard */,
+				198A07B31CF4B80600942E24 /* Assets.xcassets */,
+				198A07B51CF4B80600942E24 /* LaunchScreen.storyboard */,
+				198A07B81CF4B80600942E24 /* Info.plist */,
+			);
+			path = "Project 01 - TumblrMenu";
+			sourceTree = "<group>";
+		};
+		198A07C01CF4B80600942E24 /* Project 01 - TumblrMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				198A07C11CF4B80600942E24 /* Project_01___TumblrMenuTests.swift */,
+				198A07C31CF4B80600942E24 /* Info.plist */,
+			);
+			path = "Project 01 - TumblrMenuTests";
+			sourceTree = "<group>";
+		};
+		198A07CB1CF4B80600942E24 /* Project 01 - TumblrMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				198A07CC1CF4B80600942E24 /* Project_01___TumblrMenuUITests.swift */,
+				198A07CE1CF4B80600942E24 /* Info.plist */,
+			);
+			path = "Project 01 - TumblrMenuUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		198A07A81CF4B80500942E24 /* Project 01 - TumblrMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 198A07D11CF4B80600942E24 /* Build configuration list for PBXNativeTarget "Project 01 - TumblrMenu" */;
+			buildPhases = (
+				198A07A51CF4B80500942E24 /* Sources */,
+				198A07A61CF4B80500942E24 /* Frameworks */,
+				198A07A71CF4B80500942E24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project 01 - TumblrMenu";
+			productName = "Project 01 - TumblrMenu";
+			productReference = 198A07A91CF4B80600942E24 /* Project 01 - TumblrMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		198A07BC1CF4B80600942E24 /* Project 01 - TumblrMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 198A07D41CF4B80600942E24 /* Build configuration list for PBXNativeTarget "Project 01 - TumblrMenuTests" */;
+			buildPhases = (
+				198A07B91CF4B80600942E24 /* Sources */,
+				198A07BA1CF4B80600942E24 /* Frameworks */,
+				198A07BB1CF4B80600942E24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				198A07BF1CF4B80600942E24 /* PBXTargetDependency */,
+			);
+			name = "Project 01 - TumblrMenuTests";
+			productName = "Project 01 - TumblrMenuTests";
+			productReference = 198A07BD1CF4B80600942E24 /* Project 01 - TumblrMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		198A07C71CF4B80600942E24 /* Project 01 - TumblrMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 198A07D71CF4B80600942E24 /* Build configuration list for PBXNativeTarget "Project 01 - TumblrMenuUITests" */;
+			buildPhases = (
+				198A07C41CF4B80600942E24 /* Sources */,
+				198A07C51CF4B80600942E24 /* Frameworks */,
+				198A07C61CF4B80600942E24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				198A07CA1CF4B80600942E24 /* PBXTargetDependency */,
+			);
+			name = "Project 01 - TumblrMenuUITests";
+			productName = "Project 01 - TumblrMenuUITests";
+			productReference = 198A07C81CF4B80600942E24 /* Project 01 - TumblrMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		198A07A11CF4B80500942E24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Jiong;
+				TargetAttributes = {
+					198A07A81CF4B80500942E24 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					198A07BC1CF4B80600942E24 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 55TJDVV762;
+						TestTargetID = 198A07A81CF4B80500942E24;
+					};
+					198A07C71CF4B80600942E24 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 55TJDVV762;
+						TestTargetID = 198A07A81CF4B80500942E24;
+					};
+				};
+			};
+			buildConfigurationList = 198A07A41CF4B80500942E24 /* Build configuration list for PBXProject "Project 01 - TumblrMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 198A07A01CF4B80500942E24;
+			productRefGroup = 198A07AA1CF4B80600942E24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				198A07A81CF4B80500942E24 /* Project 01 - TumblrMenu */,
+				198A07BC1CF4B80600942E24 /* Project 01 - TumblrMenuTests */,
+				198A07C71CF4B80600942E24 /* Project 01 - TumblrMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		198A07A71CF4B80500942E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198A07B71CF4B80600942E24 /* LaunchScreen.storyboard in Resources */,
+				198A07B41CF4B80600942E24 /* Assets.xcassets in Resources */,
+				198A07B21CF4B80600942E24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		198A07BB1CF4B80600942E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		198A07C61CF4B80600942E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		198A07A51CF4B80500942E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198A07AF1CF4B80600942E24 /* ViewController.swift in Sources */,
+				198A07AD1CF4B80600942E24 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		198A07B91CF4B80600942E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198A07C21CF4B80600942E24 /* Project_01___TumblrMenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		198A07C41CF4B80600942E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198A07CD1CF4B80600942E24 /* Project_01___TumblrMenuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		198A07BF1CF4B80600942E24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 198A07A81CF4B80500942E24 /* Project 01 - TumblrMenu */;
+			targetProxy = 198A07BE1CF4B80600942E24 /* PBXContainerItemProxy */;
+		};
+		198A07CA1CF4B80600942E24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 198A07A81CF4B80500942E24 /* Project 01 - TumblrMenu */;
+			targetProxy = 198A07C91CF4B80600942E24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		198A07B01CF4B80600942E24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				198A07B11CF4B80600942E24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		198A07B51CF4B80600942E24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				198A07B61CF4B80600942E24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		198A07CF1CF4B80600942E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		198A07D01CF4B80600942E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		198A07D21CF4B80600942E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Project 01 - TumblrMenu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-01---TumblrMenu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		198A07D31CF4B80600942E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Project 01 - TumblrMenu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-01---TumblrMenu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		198A07D51CF4B80600942E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project 01 - TumblrMenuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-01---TumblrMenuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 01 - TumblrMenu.app/Project 01 - TumblrMenu";
+			};
+			name = Debug;
+		};
+		198A07D61CF4B80600942E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project 01 - TumblrMenuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-01---TumblrMenuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 01 - TumblrMenu.app/Project 01 - TumblrMenu";
+			};
+			name = Release;
+		};
+		198A07D81CF4B80600942E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Project 01 - TumblrMenuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-01---TumblrMenuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Project 01 - TumblrMenu";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		198A07D91CF4B80600942E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Project 01 - TumblrMenuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-01---TumblrMenuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Project 01 - TumblrMenu";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		198A07A41CF4B80500942E24 /* Build configuration list for PBXProject "Project 01 - TumblrMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				198A07CF1CF4B80600942E24 /* Debug */,
+				198A07D01CF4B80600942E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		198A07D11CF4B80600942E24 /* Build configuration list for PBXNativeTarget "Project 01 - TumblrMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				198A07D21CF4B80600942E24 /* Debug */,
+				198A07D31CF4B80600942E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		198A07D41CF4B80600942E24 /* Build configuration list for PBXNativeTarget "Project 01 - TumblrMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				198A07D51CF4B80600942E24 /* Debug */,
+				198A07D61CF4B80600942E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		198A07D71CF4B80600942E24 /* Build configuration list for PBXNativeTarget "Project 01 - TumblrMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				198A07D81CF4B80600942E24 /* Debug */,
+				198A07D91CF4B80600942E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 198A07A11CF4B80500942E24 /* Project object */;
+}
