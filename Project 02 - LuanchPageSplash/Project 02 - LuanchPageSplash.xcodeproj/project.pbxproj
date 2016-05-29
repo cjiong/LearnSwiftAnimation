@@ -193,7 +193,6 @@
 				TargetAttributes = {
 					19803F6D1CFB3B76008C2168 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 55TJDVV762;
 					};
 					19803F811CFB3B76008C2168 = {
 						CreatedOnToolsVersion = 7.2;
@@ -402,6 +401,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Project 02 - LuanchPageSplash/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-02---LuanchPageSplash";
@@ -413,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Project 02 - LuanchPageSplash/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-02---LuanchPageSplash";
