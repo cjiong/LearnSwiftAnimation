@@ -12,6 +12,8 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBarHidden = true
+        
     }
 
     override func didReceiveMemoryWarning() {
