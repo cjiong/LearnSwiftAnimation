@@ -15,6 +15,7 @@
 		198A07C21CF4B80600942E24 /* Project_01___TumblrMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A07C11CF4B80600942E24 /* Project_01___TumblrMenuTests.swift */; };
 		198A07CD1CF4B80600942E24 /* Project_01___TumblrMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198A07CC1CF4B80600942E24 /* Project_01___TumblrMenuUITests.swift */; };
 		19A18A091CFDC0AF007D1DD8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A18A081CFDC0AF007D1DD8 /* MenuViewController.swift */; };
+		19A18A0B1CFDED43007D1DD8 /* MenuTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A18A0A1CFDED43007D1DD8 /* MenuTransitionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		198A07CC1CF4B80600942E24 /* Project_01___TumblrMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_01___TumblrMenuUITests.swift"; sourceTree = "<group>"; };
 		198A07CE1CF4B80600942E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19A18A081CFDC0AF007D1DD8 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		19A18A0A1CFDED43007D1DD8 /* MenuTransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTransitionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				198A07AC1CF4B80600942E24 /* AppDelegate.swift */,
 				198A07AE1CF4B80600942E24 /* MainViewController.swift */,
 				19A18A081CFDC0AF007D1DD8 /* MenuViewController.swift */,
+				19A18A0A1CFDED43007D1DD8 /* MenuTransitionManager.swift */,
 				198A07B01CF4B80600942E24 /* Main.storyboard */,
 				198A07B31CF4B80600942E24 /* Assets.xcassets */,
 				198A07B51CF4B80600942E24 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				198A07AF1CF4B80600942E24 /* MainViewController.swift in Sources */,
+				19A18A0B1CFDED43007D1DD8 /* MenuTransitionManager.swift in Sources */,
 				19A18A091CFDC0AF007D1DD8 /* MenuViewController.swift in Sources */,
 				198A07AD1CF4B80600942E24 /* AppDelegate.swift in Sources */,
 			);

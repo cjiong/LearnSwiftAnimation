@@ -45,14 +45,23 @@
                                         <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cNw-7T-bcU" userLabel="Volkswagen Button">
                                             <rect key="frame" x="70" y="94" width="100" height="100"/>
                                             <state key="normal" image="Volkswagen@1x"/>
+                                            <connections>
+                                                <action selector="menuButtonDidTouch:" destination="7du-ys-NDP" eventType="touchUpInside" id="zxC-O4-3vF"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OE6-tF-sTH" userLabel="Lamborghini Button">
                                             <rect key="frame" x="204" y="94" width="100" height="100"/>
                                             <state key="normal" image="Lamborghini@1x"/>
+                                            <connections>
+                                                <action selector="menuButtonDidTouch:" destination="7du-ys-NDP" eventType="touchUpInside" id="EXi-EY-DMf"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c90-sG-ug4" userLabel="BMW Button">
                                             <rect key="frame" x="70" y="414" width="100" height="100"/>
                                             <state key="normal" image="BMW@1x"/>
+                                            <connections>
+                                                <action selector="menuButtonDidTouch:" destination="7du-ys-NDP" eventType="touchUpInside" id="PEX-Vt-bcv"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wQG-EJ-YXv" userLabel="Alfa Romeo Button">
                                             <rect key="frame" x="204" y="254" width="100" height="100"/>
@@ -61,10 +70,16 @@
                                                 <constraint firstAttribute="height" constant="100" id="gdD-Oq-blD"/>
                                             </constraints>
                                             <state key="normal" image="Alfa_Romeo@1x"/>
+                                            <connections>
+                                                <action selector="menuButtonDidTouch:" destination="7du-ys-NDP" eventType="touchUpInside" id="Gtb-Nc-36F"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLT-f6-Fz8" userLabel="Benz Button">
                                             <rect key="frame" x="70" y="254" width="100" height="100"/>
                                             <state key="normal" image="Mercedes_Benz@1x"/>
+                                            <connections>
+                                                <action selector="menuButtonDidTouch:" destination="7du-ys-NDP" eventType="touchUpInside" id="tSW-gE-kpl"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vod-XU-rh6">
                                             <rect key="frame" x="158" y="594" width="58" height="30"/>
@@ -121,6 +136,9 @@
                                         <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gPD-7I-1Sn" userLabel="Bugatti Button">
                                             <rect key="frame" x="205" y="414" width="100" height="100"/>
                                             <state key="normal" image="Bugatti@1x"/>
+                                            <connections>
+                                                <action selector="menuButtonDidTouch:" destination="7du-ys-NDP" eventType="touchUpInside" id="wzI-2I-dAA"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                     <constraints>
@@ -204,6 +222,20 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="BMWButton" destination="c90-sG-ug4" id="VhL-kv-QOO"/>
+                        <outlet property="BMWLabel" destination="PLn-O0-NZG" id="aMr-yB-9Nk"/>
+                        <outlet property="alfaRomeoButton" destination="wQG-EJ-YXv" id="nO3-WZ-JpL"/>
+                        <outlet property="alfaRomeoLabel" destination="MMO-gZ-jlr" id="Vre-BU-5uI"/>
+                        <outlet property="benzButton" destination="gLT-f6-Fz8" id="7lz-HF-3HQ"/>
+                        <outlet property="benzLabel" destination="wuL-RS-cYP" id="c1L-Dx-Vm5"/>
+                        <outlet property="bugattiButton" destination="gPD-7I-1Sn" id="Wf1-ka-Rid"/>
+                        <outlet property="bugattiLabel" destination="w2N-J7-9gg" id="kyR-03-b0b"/>
+                        <outlet property="lamborghiniButton" destination="OE6-tF-sTH" id="Rdk-Br-kjm"/>
+                        <outlet property="lamborghiniLabel" destination="n8D-1O-y8B" id="duk-FS-Nsw"/>
+                        <outlet property="volkswagenButton" destination="cNw-7T-bcU" id="Odk-FO-6Kn"/>
+                        <outlet property="volkswagenLabel" destination="ppX-Qr-qjW" id="8m0-c8-TUQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kja-AG-1g8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
