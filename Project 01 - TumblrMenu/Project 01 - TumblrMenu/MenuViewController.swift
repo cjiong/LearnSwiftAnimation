@@ -30,6 +30,7 @@ class MenuViewController: UIViewController {
     @IBOutlet weak var bugattiButton: UIButton!
     @IBOutlet weak var bugattiLabel: UILabel!
     
+    //MARK: 回到主页面
     @IBAction func menuButtonDidTouch(sender: AnyObject) {
         
         dismissViewControllerAnimated(true, completion: nil)
