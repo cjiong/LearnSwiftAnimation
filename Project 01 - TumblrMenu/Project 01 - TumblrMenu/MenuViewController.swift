@@ -21,11 +21,11 @@ class MenuViewController: UIViewController {
     @IBOutlet weak var benzButton: UIButton!
     @IBOutlet weak var benzLabel: UILabel!
     
-    @IBOutlet weak var alfaRomeoButton: UIButton!
-    @IBOutlet weak var alfaRomeoLabel: UILabel!
+    @IBOutlet weak var bentleyButton: UIButton!
+    @IBOutlet weak var bentleyLabel: UILabel!
     
-    @IBOutlet weak var BMWButton: UIButton!
-    @IBOutlet weak var BMWLabel: UILabel!
+    @IBOutlet weak var ferrariButton: UIButton!
+    @IBOutlet weak var ferrariLabel: UILabel!
     
     @IBOutlet weak var bugattiButton: UIButton!
     @IBOutlet weak var bugattiLabel: UILabel!

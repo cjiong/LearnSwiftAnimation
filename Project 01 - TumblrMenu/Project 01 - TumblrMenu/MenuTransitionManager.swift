@@ -16,10 +16,10 @@ class MenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning, UI
         
         let container = transitionContext.containerView()
         
-        let screens: (from: UIViewController, to: UIViewController) = (transitionContext.viewControllerForKey(UITransitionContextFromViewControllerKey)!, transitionContext.viewControllerForKey(UITransitionContextFromViewControllerKey)!)
+        let screens : (from:UIViewController, to:UIViewController) = (transitionContext.viewControllerForKey(UITransitionContextFromViewControllerKey)!, transitionContext.viewControllerForKey(UITransitionContextToViewControllerKey)!)
         
         let menuViewController = !self.presenting ? screens.from as! MenuViewController : screens.to as! MenuViewController
-        let bottomViewController = self.presenting ? screens.to as! UIViewController : screens.from as! UIViewController
+        let bottomViewController = !self.presenting ? screens.to as UIViewController : screens.from as UIViewController
         
         let menuView = menuViewController.view
         let bottomView = bottomViewController.view
@@ -30,14 +30,14 @@ class MenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning, UI
             
         }
         
-        container?.addSubview(menuView)
-        container?.addSubview(bottomView)
+        container!.addSubview(bottomView)
+        container!.addSubview(menuView)
         
         let duration = self.transitionDuration(transitionContext)
         
         UIView.animateWithDuration(duration, delay: 0.0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0.8, options: [], animations: {
             
-            if(self.presenting) {
+            if (self.presenting){
                 
                 self.onStageMenuViewController(menuViewController)
                 
@@ -50,9 +50,10 @@ class MenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning, UI
             }, completion: { finished in
                 
                 transitionContext.completeTransition(true)
-                UIApplication.sharedApplication().keyWindow?.addSubview(screens.to.view)
-        
+                UIApplication.sharedApplication().keyWindow!.addSubview(screens.to.view)
+                
         })
+        
     }
     
     func offstage(amount: CGFloat) -> CGAffineTransform {
@@ -73,14 +74,14 @@ class MenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning, UI
         menuViewController.benzButton.transform = self.offstage(-middleRowOffset)
         menuViewController.benzLabel.transform = self.offstage(-middleRowOffset)
         
-        menuViewController.BMWButton.transform = self.offstage(-bottomRowOffset)
-        menuViewController.BMWLabel.transform = self.offstage(-bottomRowOffset)
+        menuViewController.ferrariButton.transform = self.offstage(-bottomRowOffset)
+        menuViewController.ferrariButton.transform = self.offstage(-bottomRowOffset)
         
         menuViewController.lamborghiniButton.transform = self.offstage(topRowOffset)
         menuViewController.lamborghiniLabel.transform = self.offstage(topRowOffset)
         
-        menuViewController.alfaRomeoButton.transform = self.offstage(middleRowOffset)
-        menuViewController.alfaRomeoLabel.transform = self.offstage(middleRowOffset)
+        menuViewController.bentleyButton.transform = self.offstage(middleRowOffset)
+        menuViewController.bentleyLabel.transform = self.offstage(middleRowOffset)
         
         menuViewController.bugattiButton.transform = self.offstage(bottomRowOffset)
         menuViewController.bugattiLabel.transform = self.offstage(bottomRowOffset)
@@ -96,14 +97,14 @@ class MenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning, UI
         menuViewController.benzButton.transform = CGAffineTransformIdentity
         menuViewController.benzLabel.transform = CGAffineTransformIdentity
         
-        menuViewController.BMWButton.transform = CGAffineTransformIdentity
-        menuViewController.BMWLabel.transform = CGAffineTransformIdentity
+        menuViewController.ferrariButton.transform = CGAffineTransformIdentity
+        menuViewController.ferrariLabel.transform = CGAffineTransformIdentity
         
         menuViewController.lamborghiniButton.transform = CGAffineTransformIdentity
         menuViewController.lamborghiniLabel.transform = CGAffineTransformIdentity
         
-        menuViewController.alfaRomeoButton.transform = CGAffineTransformIdentity
-        menuViewController.alfaRomeoLabel.transform = CGAffineTransformIdentity
+        menuViewController.bentleyButton.transform = CGAffineTransformIdentity
+        menuViewController.bentleyLabel.transform = CGAffineTransformIdentity
         
         menuViewController.bugattiButton.transform = CGAffineTransformIdentity
         menuViewController.bugattiLabel.transform = CGAffineTransformIdentity
