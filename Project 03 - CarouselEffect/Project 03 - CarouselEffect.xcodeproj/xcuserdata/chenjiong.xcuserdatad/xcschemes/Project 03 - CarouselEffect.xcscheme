@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "199D53E41D01D84F00FCCDE4"
-               BuildableName = "Project 03 - CarouselEffect.app"
+               BuildableName = "Project 23 - CarouselEffect.app"
                BlueprintName = "Project 03 - CarouselEffect"
                ReferencedContainer = "container:Project 03 - CarouselEffect.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "199D53F81D01D84F00FCCDE4"
-               BuildableName = "Project 03 - CarouselEffectTests.xctest"
+               BuildableName = "Project 03 - CarouselEffect.xctest"
                BlueprintName = "Project 03 - CarouselEffectTests"
                ReferencedContainer = "container:Project 03 - CarouselEffect.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "199D54031D01D84F00FCCDE4"
-               BuildableName = "Project 03 - CarouselEffectUITests.xctest"
+               BuildableName = "Project 03 - CarouselEffect.xctest"
                BlueprintName = "Project 03 - CarouselEffectUITests"
                ReferencedContainer = "container:Project 03 - CarouselEffect.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "199D53E41D01D84F00FCCDE4"
-            BuildableName = "Project 03 - CarouselEffect.app"
+            BuildableName = "Project 23 - CarouselEffect.app"
             BlueprintName = "Project 03 - CarouselEffect"
             ReferencedContainer = "container:Project 03 - CarouselEffect.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "199D53E41D01D84F00FCCDE4"
-            BuildableName = "Project 03 - CarouselEffect.app"
+            BuildableName = "Project 23 - CarouselEffect.app"
             BlueprintName = "Project 03 - CarouselEffect"
             ReferencedContainer = "container:Project 03 - CarouselEffect.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "199D53E41D01D84F00FCCDE4"
-            BuildableName = "Project 03 - CarouselEffect.app"
+            BuildableName = "Project 23 - CarouselEffect.app"
             BlueprintName = "Project 03 - CarouselEffect"
             ReferencedContainer = "container:Project 03 - CarouselEffect.xcodeproj">
          </BuildableReference>
