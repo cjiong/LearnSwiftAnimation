@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19332B6D1D0EF29500042CD5 /* SceneryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19332B6C1D0EF29500042CD5 /* SceneryCell.swift */; };
 		19BF885E1D0B100F00EF0C95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BF885D1D0B100F00EF0C95 /* AppDelegate.swift */; };
 		19BF88601D0B100F00EF0C95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BF885F1D0B100F00EF0C95 /* ViewController.swift */; };
 		19BF88631D0B100F00EF0C95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19BF88611D0B100F00EF0C95 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19332B6C1D0EF29500042CD5 /* SceneryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneryCell.swift; sourceTree = "<group>"; };
 		19BF885A1D0B100F00EF0C95 /* Project 04 - NavigationBarAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 04 - NavigationBarAnimation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19BF885D1D0B100F00EF0C95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19BF885F1D0B100F00EF0C95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				19BF885D1D0B100F00EF0C95 /* AppDelegate.swift */,
 				19BF885F1D0B100F00EF0C95 /* ViewController.swift */,
+				19332B6C1D0EF29500042CD5 /* SceneryCell.swift */,
 				19BF88611D0B100F00EF0C95 /* Main.storyboard */,
 				19BF88641D0B100F00EF0C95 /* Assets.xcassets */,
 				19BF88661D0B100F00EF0C95 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				19BF88601D0B100F00EF0C95 /* ViewController.swift in Sources */,
 				19BF885E1D0B100F00EF0C95 /* AppDelegate.swift in Sources */,
+				19332B6D1D0EF29500042CD5 /* SceneryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +492,7 @@
 				19BF88841D0B100F00EF0C95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19BF88851D0B100F00EF0C95 /* Build configuration list for PBXNativeTarget "Project 04 - NavigationBarAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				19BF88871D0B100F00EF0C95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19BF88881D0B100F00EF0C95 /* Build configuration list for PBXNativeTarget "Project 04 - NavigationBarAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				19BF888A1D0B100F00EF0C95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
