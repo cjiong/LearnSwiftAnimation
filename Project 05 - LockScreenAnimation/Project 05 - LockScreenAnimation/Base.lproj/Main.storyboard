@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project_05___LockScreenAnimation" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,7 +17,43 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0N6-KY-G8P" userLabel="Bottom">
+                                <rect key="frame" x="0.0" y="300" width="600" height="300"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gf0-mb-7Ek" userLabel="Top">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jbg-WQ-VYP" userLabel="Lock Border">
+                                <rect key="frame" x="244" y="245" width="112" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="112" id="L9e-JI-Mw9"/>
+                                    <constraint firstAttribute="height" constant="110" id="f6F-pQ-9CU"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ztl-mB-cjf" userLabel="Lock Keyhole">
+                                <rect key="frame" x="265" y="265" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="HSv-r5-P6e"/>
+                                    <constraint firstAttribute="width" constant="70" id="br0-CJ-SHQ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ztl-mB-cjf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0VD-io-Qpc"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0N6-KY-G8P" secondAttribute="bottom" id="7QY-Pl-y0t"/>
+                            <constraint firstItem="gf0-mb-7Ek" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="9BE-lT-lTj"/>
+                            <constraint firstItem="Jbg-WQ-VYP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IWP-9e-uIf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gf0-mb-7Ek" secondAttribute="trailing" constant="-20" id="RLZ-Yd-u5e"/>
+                            <constraint firstItem="Jbg-WQ-VYP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Vjb-nJ-qzg"/>
+                            <constraint firstItem="0N6-KY-G8P" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="eyl-IH-Ywv"/>
+                            <constraint firstItem="0N6-KY-G8P" firstAttribute="height" secondItem="gf0-mb-7Ek" secondAttribute="height" id="fnm-FW-uTw"/>
+                            <constraint firstItem="0N6-KY-G8P" firstAttribute="top" secondItem="gf0-mb-7Ek" secondAttribute="bottom" id="g1a-mu-C95"/>
+                            <constraint firstItem="ztl-mB-cjf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qN1-EF-4p7"/>
+                            <constraint firstItem="gf0-mb-7Ek" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="v8U-gv-jc2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0N6-KY-G8P" secondAttribute="trailing" constant="-20" id="vK9-ca-HYg"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
