@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19D34F891D12E14C0047E0EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D34F881D12E14C0047E0EA /* AppDelegate.swift */; };
+		19D34F8B1D12E14C0047E0EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D34F8A1D12E14C0047E0EA /* ViewController.swift */; };
+		19D34F8E1D12E14C0047E0EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D34F8C1D12E14C0047E0EA /* Main.storyboard */; };
+		19D34F901D12E14C0047E0EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D34F8F1D12E14C0047E0EA /* Assets.xcassets */; };
+		19D34F931D12E14C0047E0EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D34F911D12E14C0047E0EA /* LaunchScreen.storyboard */; };
+		19D34F9E1D12E14C0047E0EA /* Project_05___LockScreenAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D34F9D1D12E14C0047E0EA /* Project_05___LockScreenAnimationTests.swift */; };
+		19D34FA91D12E14C0047E0EA /* Project_05___LockScreenAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D34FA81D12E14C0047E0EA /* Project_05___LockScreenAnimationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19D34F9A1D12E14C0047E0EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19D34F7D1D12E14C0047E0EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19D34F841D12E14C0047E0EA;
+			remoteInfo = "Project 05 - LockScreenAnimation";
+		};
+		19D34FA51D12E14C0047E0EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19D34F7D1D12E14C0047E0EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19D34F841D12E14C0047E0EA;
+			remoteInfo = "Project 05 - LockScreenAnimation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19D34F851D12E14C0047E0EA /* Project 05 - LockScreenAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 05 - LockScreenAnimation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D34F881D12E14C0047E0EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19D34F8A1D12E14C0047E0EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19D34F8D1D12E14C0047E0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19D34F8F1D12E14C0047E0EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19D34F921D12E14C0047E0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19D34F941D12E14C0047E0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19D34F991D12E14C0047E0EA /* Project 05 - LockScreenAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 05 - LockScreenAnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D34F9D1D12E14C0047E0EA /* Project_05___LockScreenAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_05___LockScreenAnimationTests.swift"; sourceTree = "<group>"; };
+		19D34F9F1D12E14C0047E0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19D34FA41D12E14C0047E0EA /* Project 05 - LockScreenAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 05 - LockScreenAnimationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D34FA81D12E14C0047E0EA /* Project_05___LockScreenAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_05___LockScreenAnimationUITests.swift"; sourceTree = "<group>"; };
+		19D34FAA1D12E14C0047E0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19D34F821D12E14C0047E0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D34F961D12E14C0047E0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D34FA11D12E14C0047E0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19D34F7C1D12E14B0047E0EA = {
+			isa = PBXGroup;
+			children = (
+				19D34F871D12E14C0047E0EA /* Project 05 - LockScreenAnimation */,
+				19D34F9C1D12E14C0047E0EA /* Project 05 - LockScreenAnimationTests */,
+				19D34FA71D12E14C0047E0EA /* Project 05 - LockScreenAnimationUITests */,
+				19D34F861D12E14C0047E0EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19D34F861D12E14C0047E0EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19D34F851D12E14C0047E0EA /* Project 05 - LockScreenAnimation.app */,
+				19D34F991D12E14C0047E0EA /* Project 05 - LockScreenAnimationTests.xctest */,
+				19D34FA41D12E14C0047E0EA /* Project 05 - LockScreenAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19D34F871D12E14C0047E0EA /* Project 05 - LockScreenAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				19D34F881D12E14C0047E0EA /* AppDelegate.swift */,
+				19D34F8A1D12E14C0047E0EA /* ViewController.swift */,
+				19D34F8C1D12E14C0047E0EA /* Main.storyboard */,
+				19D34F8F1D12E14C0047E0EA /* Assets.xcassets */,
+				19D34F911D12E14C0047E0EA /* LaunchScreen.storyboard */,
+				19D34F941D12E14C0047E0EA /* Info.plist */,
+			);
+			path = "Project 05 - LockScreenAnimation";
+			sourceTree = "<group>";
+		};
+		19D34F9C1D12E14C0047E0EA /* Project 05 - LockScreenAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				19D34F9D1D12E14C0047E0EA /* Project_05___LockScreenAnimationTests.swift */,
+				19D34F9F1D12E14C0047E0EA /* Info.plist */,
+			);
+			path = "Project 05 - LockScreenAnimationTests";
+			sourceTree = "<group>";
+		};
+		19D34FA71D12E14C0047E0EA /* Project 05 - LockScreenAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19D34FA81D12E14C0047E0EA /* Project_05___LockScreenAnimationUITests.swift */,
+				19D34FAA1D12E14C0047E0EA /* Info.plist */,
+			);
+			path = "Project 05 - LockScreenAnimationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19D34F841D12E14C0047E0EA /* Project 05 - LockScreenAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D34FAD1D12E14C0047E0EA /* Build configuration list for PBXNativeTarget "Project 05 - LockScreenAnimation" */;
+			buildPhases = (
+				19D34F811D12E14C0047E0EA /* Sources */,
+				19D34F821D12E14C0047E0EA /* Frameworks */,
+				19D34F831D12E14C0047E0EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project 05 - LockScreenAnimation";
+			productName = "Project 05 - LockScreenAnimation";
+			productReference = 19D34F851D12E14C0047E0EA /* Project 05 - LockScreenAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19D34F981D12E14C0047E0EA /* Project 05 - LockScreenAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D34FB01D12E14C0047E0EA /* Build configuration list for PBXNativeTarget "Project 05 - LockScreenAnimationTests" */;
+			buildPhases = (
+				19D34F951D12E14C0047E0EA /* Sources */,
+				19D34F961D12E14C0047E0EA /* Frameworks */,
+				19D34F971D12E14C0047E0EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19D34F9B1D12E14C0047E0EA /* PBXTargetDependency */,
+			);
+			name = "Project 05 - LockScreenAnimationTests";
+			productName = "Project 05 - LockScreenAnimationTests";
+			productReference = 19D34F991D12E14C0047E0EA /* Project 05 - LockScreenAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19D34FA31D12E14C0047E0EA /* Project 05 - LockScreenAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D34FB31D12E14C0047E0EA /* Build configuration list for PBXNativeTarget "Project 05 - LockScreenAnimationUITests" */;
+			buildPhases = (
+				19D34FA01D12E14C0047E0EA /* Sources */,
+				19D34FA11D12E14C0047E0EA /* Frameworks */,
+				19D34FA21D12E14C0047E0EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19D34FA61D12E14C0047E0EA /* PBXTargetDependency */,
+			);
+			name = "Project 05 - LockScreenAnimationUITests";
+			productName = "Project 05 - LockScreenAnimationUITests";
+			productReference = 19D34FA41D12E14C0047E0EA /* Project 05 - LockScreenAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19D34F7D1D12E14C0047E0EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Jiong;
+				TargetAttributes = {
+					19D34F841D12E14C0047E0EA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					19D34F981D12E14C0047E0EA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 55TJDVV762;
+						TestTargetID = 19D34F841D12E14C0047E0EA;
+					};
+					19D34FA31D12E14C0047E0EA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 55TJDVV762;
+						TestTargetID = 19D34F841D12E14C0047E0EA;
+					};
+				};
+			};
+			buildConfigurationList = 19D34F801D12E14C0047E0EA /* Build configuration list for PBXProject "Project 05 - LockScreenAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19D34F7C1D12E14B0047E0EA;
+			productRefGroup = 19D34F861D12E14C0047E0EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19D34F841D12E14C0047E0EA /* Project 05 - LockScreenAnimation */,
+				19D34F981D12E14C0047E0EA /* Project 05 - LockScreenAnimationTests */,
+				19D34FA31D12E14C0047E0EA /* Project 05 - LockScreenAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19D34F831D12E14C0047E0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D34F931D12E14C0047E0EA /* LaunchScreen.storyboard in Resources */,
+				19D34F901D12E14C0047E0EA /* Assets.xcassets in Resources */,
+				19D34F8E1D12E14C0047E0EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D34F971D12E14C0047E0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D34FA21D12E14C0047E0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19D34F811D12E14C0047E0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D34F8B1D12E14C0047E0EA /* ViewController.swift in Sources */,
+				19D34F891D12E14C0047E0EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D34F951D12E14C0047E0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D34F9E1D12E14C0047E0EA /* Project_05___LockScreenAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19D34FA01D12E14C0047E0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D34FA91D12E14C0047E0EA /* Project_05___LockScreenAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19D34F9B1D12E14C0047E0EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19D34F841D12E14C0047E0EA /* Project 05 - LockScreenAnimation */;
+			targetProxy = 19D34F9A1D12E14C0047E0EA /* PBXContainerItemProxy */;
+		};
+		19D34FA61D12E14C0047E0EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19D34F841D12E14C0047E0EA /* Project 05 - LockScreenAnimation */;
+			targetProxy = 19D34FA51D12E14C0047E0EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19D34F8C1D12E14C0047E0EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19D34F8D1D12E14C0047E0EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19D34F911D12E14C0047E0EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19D34F921D12E14C0047E0EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19D34FAB1D12E14C0047E0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19D34FAC1D12E14C0047E0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19D34FAE1D12E14C0047E0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Project 05 - LockScreenAnimation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-05---LockScreenAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		19D34FAF1D12E14C0047E0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Project 05 - LockScreenAnimation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-05---LockScreenAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		19D34FB11D12E14C0047E0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project 05 - LockScreenAnimationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-05---LockScreenAnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 05 - LockScreenAnimation.app/Project 05 - LockScreenAnimation";
+			};
+			name = Debug;
+		};
+		19D34FB21D12E14C0047E0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project 05 - LockScreenAnimationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-05---LockScreenAnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 05 - LockScreenAnimation.app/Project 05 - LockScreenAnimation";
+			};
+			name = Release;
+		};
+		19D34FB41D12E14C0047E0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Project 05 - LockScreenAnimationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-05---LockScreenAnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Project 05 - LockScreenAnimation";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		19D34FB51D12E14C0047E0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Project 05 - LockScreenAnimationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-05---LockScreenAnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Project 05 - LockScreenAnimation";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19D34F801D12E14C0047E0EA /* Build configuration list for PBXProject "Project 05 - LockScreenAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D34FAB1D12E14C0047E0EA /* Debug */,
+				19D34FAC1D12E14C0047E0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19D34FAD1D12E14C0047E0EA /* Build configuration list for PBXNativeTarget "Project 05 - LockScreenAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D34FAE1D12E14C0047E0EA /* Debug */,
+				19D34FAF1D12E14C0047E0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19D34FB01D12E14C0047E0EA /* Build configuration list for PBXNativeTarget "Project 05 - LockScreenAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D34FB11D12E14C0047E0EA /* Debug */,
+				19D34FB21D12E14C0047E0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19D34FB31D12E14C0047E0EA /* Build configuration list for PBXNativeTarget "Project 05 - LockScreenAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D34FB41D12E14C0047E0EA /* Debug */,
+				19D34FB51D12E14C0047E0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19D34F7D1D12E14C0047E0EA /* Project object */;
+}
