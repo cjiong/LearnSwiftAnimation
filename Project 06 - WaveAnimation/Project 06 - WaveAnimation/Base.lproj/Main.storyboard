@@ -48,9 +48,12 @@
                                     <constraint firstAttribute="width" constant="100" id="Dx9-LC-7EQ"/>
                                 </constraints>
                                 <state key="normal" image="wifi"/>
+                                <connections>
+                                    <action selector="waveButtonDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z6U-ih-eny"/>
+                                </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Ea3-bJ-ZXV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3M2-uG-aKr"/>
                             <constraint firstItem="aFJ-dI-79C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4ve-UZ-LpU"/>
@@ -62,6 +65,12 @@
                             <constraint firstItem="tVo-ZZ-mTg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wZc-YU-70j"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="circle1" destination="Ea3-bJ-ZXV" id="BtU-sS-lOe"/>
+                        <outlet property="circle2" destination="tVo-ZZ-mTg" id="Ss7-Sk-cfT"/>
+                        <outlet property="circle3" destination="xZc-Sc-9hp" id="S4v-ys-y6f"/>
+                        <outlet property="waveButton" destination="aFJ-dI-79C" id="lzj-NT-xjt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
