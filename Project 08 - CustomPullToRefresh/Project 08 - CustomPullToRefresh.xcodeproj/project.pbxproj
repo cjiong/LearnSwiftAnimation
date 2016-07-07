@@ -14,6 +14,7 @@
 		19E191491D2D5B00002B7BD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19E191471D2D5B00002B7BD0 /* LaunchScreen.storyboard */; };
 		19E191541D2D5B01002B7BD0 /* Project_08___CustomPullToRefreshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E191531D2D5B01002B7BD0 /* Project_08___CustomPullToRefreshTests.swift */; };
 		19E1915F1D2D5B01002B7BD0 /* Project_08___CustomPullToRefreshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E1915E1D2D5B01002B7BD0 /* Project_08___CustomPullToRefreshUITests.swift */; };
+		19E1916F1D2D6803002B7BD0 /* RefreshContents.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19E1916E1D2D6803002B7BD0 /* RefreshContents.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		19E1915A1D2D5B01002B7BD0 /* Project 08 - CustomPullToRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 08 - CustomPullToRefreshUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19E1915E1D2D5B01002B7BD0 /* Project_08___CustomPullToRefreshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_08___CustomPullToRefreshUITests.swift"; sourceTree = "<group>"; };
 		19E191601D2D5B01002B7BD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E1916E1D2D6803002B7BD0 /* RefreshContents.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RefreshContents.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				19E1913E1D2D5B00002B7BD0 /* AppDelegate.swift */,
 				19E191401D2D5B00002B7BD0 /* ViewController.swift */,
+				19E1916E1D2D6803002B7BD0 /* RefreshContents.xib */,
 				19E191421D2D5B00002B7BD0 /* Main.storyboard */,
 				19E191451D2D5B00002B7BD0 /* Assets.xcassets */,
 				19E191471D2D5B00002B7BD0 /* LaunchScreen.storyboard */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19E191491D2D5B00002B7BD0 /* LaunchScreen.storyboard in Resources */,
+				19E1916F1D2D6803002B7BD0 /* RefreshContents.xib in Resources */,
 				19E191461D2D5B00002B7BD0 /* Assets.xcassets in Resources */,
 				19E191441D2D5B00002B7BD0 /* Main.storyboard in Resources */,
 			);
@@ -488,6 +492,7 @@
 				19E191651D2D5B01002B7BD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19E191661D2D5B01002B7BD0 /* Build configuration list for PBXNativeTarget "Project 08 - CustomPullToRefreshTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				19E191681D2D5B01002B7BD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19E191691D2D5B01002B7BD0 /* Build configuration list for PBXNativeTarget "Project 08 - CustomPullToRefreshUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				19E1916B1D2D5B01002B7BD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
