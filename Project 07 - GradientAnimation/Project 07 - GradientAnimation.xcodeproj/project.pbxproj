@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		190AB6821D31F5C70083714C /* AnimatedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190AB6811D31F5C70083714C /* AnimatedLabel.swift */; };
 		19B3121B1D280E36003DE3A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B3121A1D280E36003DE3A9 /* AppDelegate.swift */; };
 		19B3121D1D280E36003DE3A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B3121C1D280E36003DE3A9 /* ViewController.swift */; };
 		19B312201D280E36003DE3A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B3121E1D280E36003DE3A9 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		190AB6811D31F5C70083714C /* AnimatedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedLabel.swift; sourceTree = "<group>"; };
 		19B312171D280E36003DE3A9 /* Project 07 - GradientAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 07 - GradientAnimation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19B3121A1D280E36003DE3A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19B3121C1D280E36003DE3A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,9 +101,10 @@
 			children = (
 				19B3121A1D280E36003DE3A9 /* AppDelegate.swift */,
 				19B3121C1D280E36003DE3A9 /* ViewController.swift */,
+				190AB6811D31F5C70083714C /* AnimatedLabel.swift */,
 				19B3121E1D280E36003DE3A9 /* Main.storyboard */,
-				19B312211D280E36003DE3A9 /* Assets.xcassets */,
 				19B312231D280E36003DE3A9 /* LaunchScreen.storyboard */,
+				19B312211D280E36003DE3A9 /* Assets.xcassets */,
 				19B312261D280E36003DE3A9 /* Info.plist */,
 			);
 			path = "Project 07 - GradientAnimation";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190AB6821D31F5C70083714C /* AnimatedLabel.swift in Sources */,
 				19B3121D1D280E36003DE3A9 /* ViewController.swift in Sources */,
 				19B3121B1D280E36003DE3A9 /* AppDelegate.swift in Sources */,
 			);
@@ -487,6 +491,7 @@
 				19B312411D280E36003DE3A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19B312421D280E36003DE3A9 /* Build configuration list for PBXNativeTarget "Project 07 - GradientAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +500,7 @@
 				19B312441D280E36003DE3A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19B312451D280E36003DE3A9 /* Build configuration list for PBXNativeTarget "Project 07 - GradientAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +509,7 @@
 				19B312471D280E36003DE3A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
