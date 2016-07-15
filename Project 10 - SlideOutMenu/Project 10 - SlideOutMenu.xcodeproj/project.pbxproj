@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19FE70B61D38AC8C00BCF5EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE70B51D38AC8C00BCF5EF /* AppDelegate.swift */; };
+		19FE70B81D38AC8C00BCF5EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE70B71D38AC8C00BCF5EF /* ViewController.swift */; };
+		19FE70BB1D38AC8C00BCF5EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FE70B91D38AC8C00BCF5EF /* Main.storyboard */; };
+		19FE70BD1D38AC8C00BCF5EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FE70BC1D38AC8C00BCF5EF /* Assets.xcassets */; };
+		19FE70C01D38AC8C00BCF5EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FE70BE1D38AC8C00BCF5EF /* LaunchScreen.storyboard */; };
+		19FE70CB1D38AC8C00BCF5EF /* Project_10___SlideOutMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE70CA1D38AC8C00BCF5EF /* Project_10___SlideOutMenuTests.swift */; };
+		19FE70D61D38AC8C00BCF5EF /* Project_10___SlideOutMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE70D51D38AC8C00BCF5EF /* Project_10___SlideOutMenuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19FE70C71D38AC8C00BCF5EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19FE70AA1D38AC8C00BCF5EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19FE70B11D38AC8C00BCF5EF;
+			remoteInfo = "Project 10 - SlideOutMenu";
+		};
+		19FE70D21D38AC8C00BCF5EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19FE70AA1D38AC8C00BCF5EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19FE70B11D38AC8C00BCF5EF;
+			remoteInfo = "Project 10 - SlideOutMenu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19FE70B21D38AC8C00BCF5EF /* Project 10 - SlideOutMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 10 - SlideOutMenu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19FE70B51D38AC8C00BCF5EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19FE70B71D38AC8C00BCF5EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19FE70BA1D38AC8C00BCF5EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19FE70BC1D38AC8C00BCF5EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19FE70BF1D38AC8C00BCF5EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19FE70C11D38AC8C00BCF5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19FE70C61D38AC8C00BCF5EF /* Project 10 - SlideOutMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 10 - SlideOutMenuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19FE70CA1D38AC8C00BCF5EF /* Project_10___SlideOutMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_10___SlideOutMenuTests.swift"; sourceTree = "<group>"; };
+		19FE70CC1D38AC8C00BCF5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19FE70D11D38AC8C00BCF5EF /* Project 10 - SlideOutMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 10 - SlideOutMenuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19FE70D51D38AC8C00BCF5EF /* Project_10___SlideOutMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_10___SlideOutMenuUITests.swift"; sourceTree = "<group>"; };
+		19FE70D71D38AC8C00BCF5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19FE70AF1D38AC8C00BCF5EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19FE70C31D38AC8C00BCF5EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19FE70CE1D38AC8C00BCF5EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19FE70A91D38AC8C00BCF5EF = {
+			isa = PBXGroup;
+			children = (
+				19FE70B41D38AC8C00BCF5EF /* Project 10 - SlideOutMenu */,
+				19FE70C91D38AC8C00BCF5EF /* Project 10 - SlideOutMenuTests */,
+				19FE70D41D38AC8C00BCF5EF /* Project 10 - SlideOutMenuUITests */,
+				19FE70B31D38AC8C00BCF5EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19FE70B31D38AC8C00BCF5EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19FE70B21D38AC8C00BCF5EF /* Project 10 - SlideOutMenu.app */,
+				19FE70C61D38AC8C00BCF5EF /* Project 10 - SlideOutMenuTests.xctest */,
+				19FE70D11D38AC8C00BCF5EF /* Project 10 - SlideOutMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19FE70B41D38AC8C00BCF5EF /* Project 10 - SlideOutMenu */ = {
+			isa = PBXGroup;
+			children = (
+				19FE70B51D38AC8C00BCF5EF /* AppDelegate.swift */,
+				19FE70B71D38AC8C00BCF5EF /* ViewController.swift */,
+				19FE70B91D38AC8C00BCF5EF /* Main.storyboard */,
+				19FE70BC1D38AC8C00BCF5EF /* Assets.xcassets */,
+				19FE70BE1D38AC8C00BCF5EF /* LaunchScreen.storyboard */,
+				19FE70C11D38AC8C00BCF5EF /* Info.plist */,
+			);
+			path = "Project 10 - SlideOutMenu";
+			sourceTree = "<group>";
+		};
+		19FE70C91D38AC8C00BCF5EF /* Project 10 - SlideOutMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				19FE70CA1D38AC8C00BCF5EF /* Project_10___SlideOutMenuTests.swift */,
+				19FE70CC1D38AC8C00BCF5EF /* Info.plist */,
+			);
+			path = "Project 10 - SlideOutMenuTests";
+			sourceTree = "<group>";
+		};
+		19FE70D41D38AC8C00BCF5EF /* Project 10 - SlideOutMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19FE70D51D38AC8C00BCF5EF /* Project_10___SlideOutMenuUITests.swift */,
+				19FE70D71D38AC8C00BCF5EF /* Info.plist */,
+			);
+			path = "Project 10 - SlideOutMenuUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19FE70B11D38AC8C00BCF5EF /* Project 10 - SlideOutMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19FE70DA1D38AC8C00BCF5EF /* Build configuration list for PBXNativeTarget "Project 10 - SlideOutMenu" */;
+			buildPhases = (
+				19FE70AE1D38AC8C00BCF5EF /* Sources */,
+				19FE70AF1D38AC8C00BCF5EF /* Frameworks */,
+				19FE70B01D38AC8C00BCF5EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project 10 - SlideOutMenu";
+			productName = "Project 10 - SlideOutMenu";
+			productReference = 19FE70B21D38AC8C00BCF5EF /* Project 10 - SlideOutMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19FE70C51D38AC8C00BCF5EF /* Project 10 - SlideOutMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19FE70DD1D38AC8C00BCF5EF /* Build configuration list for PBXNativeTarget "Project 10 - SlideOutMenuTests" */;
+			buildPhases = (
+				19FE70C21D38AC8C00BCF5EF /* Sources */,
+				19FE70C31D38AC8C00BCF5EF /* Frameworks */,
+				19FE70C41D38AC8C00BCF5EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19FE70C81D38AC8C00BCF5EF /* PBXTargetDependency */,
+			);
+			name = "Project 10 - SlideOutMenuTests";
+			productName = "Project 10 - SlideOutMenuTests";
+			productReference = 19FE70C61D38AC8C00BCF5EF /* Project 10 - SlideOutMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19FE70D01D38AC8C00BCF5EF /* Project 10 - SlideOutMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19FE70E01D38AC8C00BCF5EF /* Build configuration list for PBXNativeTarget "Project 10 - SlideOutMenuUITests" */;
+			buildPhases = (
+				19FE70CD1D38AC8C00BCF5EF /* Sources */,
+				19FE70CE1D38AC8C00BCF5EF /* Frameworks */,
+				19FE70CF1D38AC8C00BCF5EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19FE70D31D38AC8C00BCF5EF /* PBXTargetDependency */,
+			);
+			name = "Project 10 - SlideOutMenuUITests";
+			productName = "Project 10 - SlideOutMenuUITests";
+			productReference = 19FE70D11D38AC8C00BCF5EF /* Project 10 - SlideOutMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19FE70AA1D38AC8C00BCF5EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Jiong;
+				TargetAttributes = {
+					19FE70B11D38AC8C00BCF5EF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					19FE70C51D38AC8C00BCF5EF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 55TJDVV762;
+						TestTargetID = 19FE70B11D38AC8C00BCF5EF;
+					};
+					19FE70D01D38AC8C00BCF5EF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 55TJDVV762;
+						TestTargetID = 19FE70B11D38AC8C00BCF5EF;
+					};
+				};
+			};
+			buildConfigurationList = 19FE70AD1D38AC8C00BCF5EF /* Build configuration list for PBXProject "Project 10 - SlideOutMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19FE70A91D38AC8C00BCF5EF;
+			productRefGroup = 19FE70B31D38AC8C00BCF5EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19FE70B11D38AC8C00BCF5EF /* Project 10 - SlideOutMenu */,
+				19FE70C51D38AC8C00BCF5EF /* Project 10 - SlideOutMenuTests */,
+				19FE70D01D38AC8C00BCF5EF /* Project 10 - SlideOutMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19FE70B01D38AC8C00BCF5EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19FE70C01D38AC8C00BCF5EF /* LaunchScreen.storyboard in Resources */,
+				19FE70BD1D38AC8C00BCF5EF /* Assets.xcassets in Resources */,
+				19FE70BB1D38AC8C00BCF5EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19FE70C41D38AC8C00BCF5EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19FE70CF1D38AC8C00BCF5EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19FE70AE1D38AC8C00BCF5EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19FE70B81D38AC8C00BCF5EF /* ViewController.swift in Sources */,
+				19FE70B61D38AC8C00BCF5EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19FE70C21D38AC8C00BCF5EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19FE70CB1D38AC8C00BCF5EF /* Project_10___SlideOutMenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19FE70CD1D38AC8C00BCF5EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19FE70D61D38AC8C00BCF5EF /* Project_10___SlideOutMenuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19FE70C81D38AC8C00BCF5EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19FE70B11D38AC8C00BCF5EF /* Project 10 - SlideOutMenu */;
+			targetProxy = 19FE70C71D38AC8C00BCF5EF /* PBXContainerItemProxy */;
+		};
+		19FE70D31D38AC8C00BCF5EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19FE70B11D38AC8C00BCF5EF /* Project 10 - SlideOutMenu */;
+			targetProxy = 19FE70D21D38AC8C00BCF5EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19FE70B91D38AC8C00BCF5EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19FE70BA1D38AC8C00BCF5EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19FE70BE1D38AC8C00BCF5EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19FE70BF1D38AC8C00BCF5EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19FE70D81D38AC8C00BCF5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19FE70D91D38AC8C00BCF5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19FE70DB1D38AC8C00BCF5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Project 10 - SlideOutMenu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-10---SlideOutMenu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		19FE70DC1D38AC8C00BCF5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Project 10 - SlideOutMenu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-10---SlideOutMenu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		19FE70DE1D38AC8C00BCF5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project 10 - SlideOutMenuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-10---SlideOutMenuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 10 - SlideOutMenu.app/Project 10 - SlideOutMenu";
+			};
+			name = Debug;
+		};
+		19FE70DF1D38AC8C00BCF5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project 10 - SlideOutMenuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-10---SlideOutMenuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 10 - SlideOutMenu.app/Project 10 - SlideOutMenu";
+			};
+			name = Release;
+		};
+		19FE70E11D38AC8C00BCF5EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Project 10 - SlideOutMenuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-10---SlideOutMenuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Project 10 - SlideOutMenu";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		19FE70E21D38AC8C00BCF5EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Project 10 - SlideOutMenuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-10---SlideOutMenuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Project 10 - SlideOutMenu";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19FE70AD1D38AC8C00BCF5EF /* Build configuration list for PBXProject "Project 10 - SlideOutMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19FE70D81D38AC8C00BCF5EF /* Debug */,
+				19FE70D91D38AC8C00BCF5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19FE70DA1D38AC8C00BCF5EF /* Build configuration list for PBXNativeTarget "Project 10 - SlideOutMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19FE70DB1D38AC8C00BCF5EF /* Debug */,
+				19FE70DC1D38AC8C00BCF5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19FE70DD1D38AC8C00BCF5EF /* Build configuration list for PBXNativeTarget "Project 10 - SlideOutMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19FE70DE1D38AC8C00BCF5EF /* Debug */,
+				19FE70DF1D38AC8C00BCF5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19FE70E01D38AC8C00BCF5EF /* Build configuration list for PBXNativeTarget "Project 10 - SlideOutMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19FE70E11D38AC8C00BCF5EF /* Debug */,
+				19FE70E21D38AC8C00BCF5EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19FE70AA1D38AC8C00BCF5EF /* Project object */;
+}
