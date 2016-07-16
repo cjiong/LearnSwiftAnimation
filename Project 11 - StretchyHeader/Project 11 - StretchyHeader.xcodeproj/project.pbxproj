@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1909CEA11D3A8E0F006E4D61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1909CEA01D3A8E0F006E4D61 /* AppDelegate.swift */; };
+		1909CEA31D3A8E0F006E4D61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1909CEA21D3A8E0F006E4D61 /* ViewController.swift */; };
+		1909CEA61D3A8E0F006E4D61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1909CEA41D3A8E0F006E4D61 /* Main.storyboard */; };
+		1909CEA81D3A8E0F006E4D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1909CEA71D3A8E0F006E4D61 /* Assets.xcassets */; };
+		1909CEAB1D3A8E0F006E4D61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1909CEA91D3A8E0F006E4D61 /* LaunchScreen.storyboard */; };
+		1909CEB61D3A8E0F006E4D61 /* Project_11___StretchyHeaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1909CEB51D3A8E0F006E4D61 /* Project_11___StretchyHeaderTests.swift */; };
+		1909CEC11D3A8E0F006E4D61 /* Project_11___StretchyHeaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1909CEC01D3A8E0F006E4D61 /* Project_11___StretchyHeaderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1909CEB21D3A8E0F006E4D61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1909CE951D3A8E0F006E4D61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1909CE9C1D3A8E0F006E4D61;
+			remoteInfo = "Project 11 - StretchyHeader";
+		};
+		1909CEBD1D3A8E0F006E4D61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1909CE951D3A8E0F006E4D61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1909CE9C1D3A8E0F006E4D61;
+			remoteInfo = "Project 11 - StretchyHeader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1909CE9D1D3A8E0F006E4D61 /* Project 11 - StretchyHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 11 - StretchyHeader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1909CEA01D3A8E0F006E4D61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1909CEA21D3A8E0F006E4D61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1909CEA51D3A8E0F006E4D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1909CEA71D3A8E0F006E4D61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1909CEAA1D3A8E0F006E4D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1909CEAC1D3A8E0F006E4D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1909CEB11D3A8E0F006E4D61 /* Project 11 - StretchyHeaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 11 - StretchyHeaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1909CEB51D3A8E0F006E4D61 /* Project_11___StretchyHeaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_11___StretchyHeaderTests.swift"; sourceTree = "<group>"; };
+		1909CEB71D3A8E0F006E4D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1909CEBC1D3A8E0F006E4D61 /* Project 11 - StretchyHeaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 11 - StretchyHeaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1909CEC01D3A8E0F006E4D61 /* Project_11___StretchyHeaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_11___StretchyHeaderUITests.swift"; sourceTree = "<group>"; };
+		1909CEC21D3A8E0F006E4D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1909CE9A1D3A8E0F006E4D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1909CEAE1D3A8E0F006E4D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1909CEB91D3A8E0F006E4D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1909CE941D3A8E0F006E4D61 = {
+			isa = PBXGroup;
+			children = (
+				1909CE9F1D3A8E0F006E4D61 /* Project 11 - StretchyHeader */,
+				1909CEB41D3A8E0F006E4D61 /* Project 11 - StretchyHeaderTests */,
+				1909CEBF1D3A8E0F006E4D61 /* Project 11 - StretchyHeaderUITests */,
+				1909CE9E1D3A8E0F006E4D61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1909CE9E1D3A8E0F006E4D61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1909CE9D1D3A8E0F006E4D61 /* Project 11 - StretchyHeader.app */,
+				1909CEB11D3A8E0F006E4D61 /* Project 11 - StretchyHeaderTests.xctest */,
+				1909CEBC1D3A8E0F006E4D61 /* Project 11 - StretchyHeaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1909CE9F1D3A8E0F006E4D61 /* Project 11 - StretchyHeader */ = {
+			isa = PBXGroup;
+			children = (
+				1909CEA01D3A8E0F006E4D61 /* AppDelegate.swift */,
+				1909CEA21D3A8E0F006E4D61 /* ViewController.swift */,
+				1909CEA41D3A8E0F006E4D61 /* Main.storyboard */,
+				1909CEA71D3A8E0F006E4D61 /* Assets.xcassets */,
+				1909CEA91D3A8E0F006E4D61 /* LaunchScreen.storyboard */,
+				1909CEAC1D3A8E0F006E4D61 /* Info.plist */,
+			);
+			path = "Project 11 - StretchyHeader";
+			sourceTree = "<group>";
+		};
+		1909CEB41D3A8E0F006E4D61 /* Project 11 - StretchyHeaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				1909CEB51D3A8E0F006E4D61 /* Project_11___StretchyHeaderTests.swift */,
+				1909CEB71D3A8E0F006E4D61 /* Info.plist */,
+			);
+			path = "Project 11 - StretchyHeaderTests";
+			sourceTree = "<group>";
+		};
+		1909CEBF1D3A8E0F006E4D61 /* Project 11 - StretchyHeaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1909CEC01D3A8E0F006E4D61 /* Project_11___StretchyHeaderUITests.swift */,
+				1909CEC21D3A8E0F006E4D61 /* Info.plist */,
+			);
+			path = "Project 11 - StretchyHeaderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1909CE9C1D3A8E0F006E4D61 /* Project 11 - StretchyHeader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1909CEC51D3A8E0F006E4D61 /* Build configuration list for PBXNativeTarget "Project 11 - StretchyHeader" */;
+			buildPhases = (
+				1909CE991D3A8E0F006E4D61 /* Sources */,
+				1909CE9A1D3A8E0F006E4D61 /* Frameworks */,
+				1909CE9B1D3A8E0F006E4D61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project 11 - StretchyHeader";
+			productName = "Project 11 - StretchyHeader";
+			productReference = 1909CE9D1D3A8E0F006E4D61 /* Project 11 - StretchyHeader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1909CEB01D3A8E0F006E4D61 /* Project 11 - StretchyHeaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1909CEC81D3A8E0F006E4D61 /* Build configuration list for PBXNativeTarget "Project 11 - StretchyHeaderTests" */;
+			buildPhases = (
+				1909CEAD1D3A8E0F006E4D61 /* Sources */,
+				1909CEAE1D3A8E0F006E4D61 /* Frameworks */,
+				1909CEAF1D3A8E0F006E4D61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1909CEB31D3A8E0F006E4D61 /* PBXTargetDependency */,
+			);
+			name = "Project 11 - StretchyHeaderTests";
+			productName = "Project 11 - StretchyHeaderTests";
+			productReference = 1909CEB11D3A8E0F006E4D61 /* Project 11 - StretchyHeaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1909CEBB1D3A8E0F006E4D61 /* Project 11 - StretchyHeaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1909CECB1D3A8E0F006E4D61 /* Build configuration list for PBXNativeTarget "Project 11 - StretchyHeaderUITests" */;
+			buildPhases = (
+				1909CEB81D3A8E0F006E4D61 /* Sources */,
+				1909CEB91D3A8E0F006E4D61 /* Frameworks */,
+				1909CEBA1D3A8E0F006E4D61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1909CEBE1D3A8E0F006E4D61 /* PBXTargetDependency */,
+			);
+			name = "Project 11 - StretchyHeaderUITests";
+			productName = "Project 11 - StretchyHeaderUITests";
+			productReference = 1909CEBC1D3A8E0F006E4D61 /* Project 11 - StretchyHeaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1909CE951D3A8E0F006E4D61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Jiong;
+				TargetAttributes = {
+					1909CE9C1D3A8E0F006E4D61 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 55TJDVV762;
+					};
+					1909CEB01D3A8E0F006E4D61 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 55TJDVV762;
+						TestTargetID = 1909CE9C1D3A8E0F006E4D61;
+					};
+					1909CEBB1D3A8E0F006E4D61 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 55TJDVV762;
+						TestTargetID = 1909CE9C1D3A8E0F006E4D61;
+					};
+				};
+			};
+			buildConfigurationList = 1909CE981D3A8E0F006E4D61 /* Build configuration list for PBXProject "Project 11 - StretchyHeader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1909CE941D3A8E0F006E4D61;
+			productRefGroup = 1909CE9E1D3A8E0F006E4D61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1909CE9C1D3A8E0F006E4D61 /* Project 11 - StretchyHeader */,
+				1909CEB01D3A8E0F006E4D61 /* Project 11 - StretchyHeaderTests */,
+				1909CEBB1D3A8E0F006E4D61 /* Project 11 - StretchyHeaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1909CE9B1D3A8E0F006E4D61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1909CEAB1D3A8E0F006E4D61 /* LaunchScreen.storyboard in Resources */,
+				1909CEA81D3A8E0F006E4D61 /* Assets.xcassets in Resources */,
+				1909CEA61D3A8E0F006E4D61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1909CEAF1D3A8E0F006E4D61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1909CEBA1D3A8E0F006E4D61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1909CE991D3A8E0F006E4D61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1909CEA31D3A8E0F006E4D61 /* ViewController.swift in Sources */,
+				1909CEA11D3A8E0F006E4D61 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1909CEAD1D3A8E0F006E4D61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1909CEB61D3A8E0F006E4D61 /* Project_11___StretchyHeaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1909CEB81D3A8E0F006E4D61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1909CEC11D3A8E0F006E4D61 /* Project_11___StretchyHeaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1909CEB31D3A8E0F006E4D61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1909CE9C1D3A8E0F006E4D61 /* Project 11 - StretchyHeader */;
+			targetProxy = 1909CEB21D3A8E0F006E4D61 /* PBXContainerItemProxy */;
+		};
+		1909CEBE1D3A8E0F006E4D61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1909CE9C1D3A8E0F006E4D61 /* Project 11 - StretchyHeader */;
+			targetProxy = 1909CEBD1D3A8E0F006E4D61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1909CEA41D3A8E0F006E4D61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1909CEA51D3A8E0F006E4D61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1909CEA91D3A8E0F006E4D61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1909CEAA1D3A8E0F006E4D61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1909CEC31D3A8E0F006E4D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1909CEC41D3A8E0F006E4D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1909CEC61D3A8E0F006E4D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project 11 - StretchyHeader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-11---StretchyHeader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1909CEC71D3A8E0F006E4D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project 11 - StretchyHeader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-11---StretchyHeader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1909CEC91D3A8E0F006E4D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project 11 - StretchyHeaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-11---StretchyHeaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 11 - StretchyHeader.app/Project 11 - StretchyHeader";
+			};
+			name = Debug;
+		};
+		1909CECA1D3A8E0F006E4D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project 11 - StretchyHeaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-11---StretchyHeaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 11 - StretchyHeader.app/Project 11 - StretchyHeader";
+			};
+			name = Release;
+		};
+		1909CECC1D3A8E0F006E4D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Project 11 - StretchyHeaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-11---StretchyHeaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Project 11 - StretchyHeader";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1909CECD1D3A8E0F006E4D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Project 11 - StretchyHeaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-11---StretchyHeaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Project 11 - StretchyHeader";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1909CE981D3A8E0F006E4D61 /* Build configuration list for PBXProject "Project 11 - StretchyHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1909CEC31D3A8E0F006E4D61 /* Debug */,
+				1909CEC41D3A8E0F006E4D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1909CEC51D3A8E0F006E4D61 /* Build configuration list for PBXNativeTarget "Project 11 - StretchyHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1909CEC61D3A8E0F006E4D61 /* Debug */,
+				1909CEC71D3A8E0F006E4D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1909CEC81D3A8E0F006E4D61 /* Build configuration list for PBXNativeTarget "Project 11 - StretchyHeaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1909CEC91D3A8E0F006E4D61 /* Debug */,
+				1909CECA1D3A8E0F006E4D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1909CECB1D3A8E0F006E4D61 /* Build configuration list for PBXNativeTarget "Project 11 - StretchyHeaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1909CECC1D3A8E0F006E4D61 /* Debug */,
+				1909CECD1D3A8E0F006E4D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1909CE951D3A8E0F006E4D61 /* Project object */;
+}
