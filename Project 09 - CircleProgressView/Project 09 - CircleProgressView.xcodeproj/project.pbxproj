@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1909CECF1D3B90FD006E4D61 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1909CECE1D3B90FD006E4D61 /* ProgressView.swift */; };
 		19440BB81D33DC5F00519ED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19440BB71D33DC5F00519ED8 /* AppDelegate.swift */; };
 		19440BBA1D33DC5F00519ED8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19440BB91D33DC5F00519ED8 /* ViewController.swift */; };
 		19440BBD1D33DC5F00519ED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19440BBB1D33DC5F00519ED8 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1909CECE1D3B90FD006E4D61 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		19440BB41D33DC5F00519ED8 /* Project 09 - CircleProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 09 - CircleProgressView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19440BB71D33DC5F00519ED8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19440BB91D33DC5F00519ED8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				19440BB71D33DC5F00519ED8 /* AppDelegate.swift */,
 				19440BB91D33DC5F00519ED8 /* ViewController.swift */,
+				1909CECE1D3B90FD006E4D61 /* ProgressView.swift */,
 				19440BBB1D33DC5F00519ED8 /* Main.storyboard */,
 				19440BBE1D33DC5F00519ED8 /* Assets.xcassets */,
 				19440BC01D33DC5F00519ED8 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				19440BBA1D33DC5F00519ED8 /* ViewController.swift in Sources */,
 				19440BB81D33DC5F00519ED8 /* AppDelegate.swift in Sources */,
+				1909CECF1D3B90FD006E4D61 /* ProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +492,7 @@
 				19440BDE1D33DC5F00519ED8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19440BDF1D33DC5F00519ED8 /* Build configuration list for PBXNativeTarget "Project 09 - CircleProgressViewTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				19440BE11D33DC5F00519ED8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19440BE21D33DC5F00519ED8 /* Build configuration list for PBXNativeTarget "Project 09 - CircleProgressViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				19440BE41D33DC5F00519ED8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
