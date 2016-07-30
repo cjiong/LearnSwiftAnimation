@@ -22,9 +22,9 @@ Project 03 - [CarouselEffect](https://github.com/cjiong/LearnSwiftAnimation/tree
 
 ![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2003%20-%20CarouselEffect/CarouselEffect.gif)
 
-Project 04 - [](https://github.com/cjiong/LearnSwiftAnimation/tree/master/Project%2002%20-%20)
+Project 04 - [NavigationBarAnimation](https://github.com/cjiong/LearnSwiftAnimation/tree/master/Project%2004%20-%20NavigationBarAnimation)
 
-![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2002%20-%20/.gif)
+![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2004%20-%20NavigationBarAnimation/NavigationBarAnimation.gif)
 
 Project 05 - [](https://github.com/cjiong/LearnSwiftAnimation/tree/master/Project%2002%20-%20)
 
