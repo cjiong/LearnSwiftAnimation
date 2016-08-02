@@ -30,8 +30,24 @@ Project 05 - [LockScreenAnimation](https://github.com/cjiong/LearnSwiftAnimation
 
 ![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2005%20-%20LockScreenAnimation/LockScreenAnimation.gif)
 
+Project 06 - [WaveAnimation](https://github.com/cjiong/LearnSwiftAnimation/tree/master/Project%2006%20-%20WaveAnimation)
+
+![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2006%20-%20WaveAnimation/WaveAnimation.gif)
+
+Project 07 - [](https://github.com/cjiong/LearnSwiftAnimation/tree/master/Project%2007%20-%20)
+
+![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2005%20-%20/.gif)
+
+Project 08 - [](https://github.com/cjiong/LearnSwiftAnimation/tree/master/Project%2005%20-%20)
+
+![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2005%20-%20L/.gif)
+
+Project 09 - [](https://github.com/cjiong/LearnSwiftAnimation/tree/master/Project%2005%20-%20)
+
+![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2005%20-%20/.gif)
+
+
 ## Learning Resource
 ## Contact Me
 ## 
-
 
