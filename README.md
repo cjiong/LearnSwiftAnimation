@@ -38,9 +38,9 @@ Project 07 - [GradientAnimation](https://github.com/cjiong/LearnSwiftAnimation/t
 
 ![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2007%20-%20GradientAnimation/GradientAnimation.gif)
 
-Project 08 - [](https://github.com/cjiong/LearnSwiftAnimation/tree/master/Project%2005%20-%20)
+Project 08 - [CustomPullToRefresh](https://github.com/cjiong/LearnSwiftAnimation/tree/master/Project%2008%20-%20CustomPullToRefresh)
 
-![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2005%20-%20L/.gif)
+![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2008%20-%20CustomPullToRefresh/CustomPullToRefresh.gif)
 
 Project 09 - [](https://github.com/cjiong/LearnSwiftAnimation/tree/master/Project%2005%20-%20)
 
