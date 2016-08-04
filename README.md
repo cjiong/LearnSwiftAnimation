@@ -34,9 +34,9 @@ Project 06 - [WaveAnimation](https://github.com/cjiong/LearnSwiftAnimation/tree/
 
 ![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2006%20-%20WaveAnimation/WaveAnimation.gif)
 
-Project 07 - [](https://github.com/cjiong/LearnSwiftAnimation/tree/master/Project%2007%20-%20)
+Project 07 - [GradientAnimation](https://github.com/cjiong/LearnSwiftAnimation/tree/master/Project%2007%20-%20GradientAnimation)
 
-![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2005%20-%20/.gif)
+![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2007%20-%20GradientAnimation/GradientAnimation.gif)
 
 Project 08 - [](https://github.com/cjiong/LearnSwiftAnimation/tree/master/Project%2005%20-%20)
 
@@ -50,4 +50,3 @@ Project 09 - [](https://github.com/cjiong/LearnSwiftAnimation/tree/master/Projec
 ## Learning Resource
 ## Contact Me
 ## 
-
