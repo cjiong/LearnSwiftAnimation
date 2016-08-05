@@ -42,9 +42,9 @@ Project 08 - [CustomPullToRefresh](https://github.com/cjiong/LearnSwiftAnimation
 
 ![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2008%20-%20CustomPullToRefresh/CustomPullToRefresh.gif)
 
-Project 09 - [](https://github.com/cjiong/LearnSwiftAnimation/tree/master/Project%2005%20-%20)
+Project 09 - [CircleProgressView](https://github.com/cjiong/LearnSwiftAnimation/tree/master/Project%2009%20-%20CircleProgressView)
 
-![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2005%20-%20/.gif)
+![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2009%20-%20CircleProgressView/CircleProgressView.gif)
 
 
 ## Learning Resource
