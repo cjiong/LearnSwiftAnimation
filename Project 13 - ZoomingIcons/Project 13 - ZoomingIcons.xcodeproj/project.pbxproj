@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1902530B1D5F79B1004A9DAC /* SocialItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1902530A1D5F79B1004A9DAC /* SocialItemCell.swift */; };
+		1902530D1D5F79D7004A9DAC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1902530C1D5F79D7004A9DAC /* DetailViewController.swift */; };
+		1902530F1D5F7A1C004A9DAC /* ZoomingIconTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1902530E1D5F7A1C004A9DAC /* ZoomingIconTransition.swift */; };
+		190253111D5F7A5B004A9DAC /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190253101D5F7A5B004A9DAC /* MenuViewController.swift */; };
 		19A51FD01D5CD370000E98D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A51FCF1D5CD370000E98D8 /* AppDelegate.swift */; };
 		19A51FD21D5CD370000E98D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A51FD11D5CD370000E98D8 /* ViewController.swift */; };
 		19A51FD51D5CD370000E98D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A51FD31D5CD370000E98D8 /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1902530A1D5F79B1004A9DAC /* SocialItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialItemCell.swift; sourceTree = "<group>"; };
+		1902530C1D5F79D7004A9DAC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = SOURCE_ROOT; };
+		1902530E1D5F7A1C004A9DAC /* ZoomingIconTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomingIconTransition.swift; sourceTree = "<group>"; };
+		190253101D5F7A5B004A9DAC /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		19A51FCC1D5CD370000E98D8 /* Project 13 - ZoomingIcons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 13 - ZoomingIcons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19A51FCF1D5CD370000E98D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19A51FD11D5CD370000E98D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +108,10 @@
 				19A51FCF1D5CD370000E98D8 /* AppDelegate.swift */,
 				19A51FD11D5CD370000E98D8 /* ViewController.swift */,
 				19A51FD31D5CD370000E98D8 /* Main.storyboard */,
+				1902530A1D5F79B1004A9DAC /* SocialItemCell.swift */,
+				1902530C1D5F79D7004A9DAC /* DetailViewController.swift */,
+				190253101D5F7A5B004A9DAC /* MenuViewController.swift */,
+				1902530E1D5F7A1C004A9DAC /* ZoomingIconTransition.swift */,
 				19A51FD61D5CD370000E98D8 /* Assets.xcassets */,
 				19A51FD81D5CD370000E98D8 /* LaunchScreen.storyboard */,
 				19A51FDB1D5CD370000E98D8 /* Info.plist */,
@@ -257,7 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				19A51FD21D5CD370000E98D8 /* ViewController.swift in Sources */,
+				190253111D5F7A5B004A9DAC /* MenuViewController.swift in Sources */,
 				19A51FD01D5CD370000E98D8 /* AppDelegate.swift in Sources */,
+				1902530F1D5F7A1C004A9DAC /* ZoomingIconTransition.swift in Sources */,
+				1902530D1D5F79D7004A9DAC /* DetailViewController.swift in Sources */,
+				1902530B1D5F79B1004A9DAC /* SocialItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +500,7 @@
 				19A51FF61D5CD370000E98D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19A51FF71D5CD370000E98D8 /* Build configuration list for PBXNativeTarget "Project 13 - ZoomingIconsTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +509,7 @@
 				19A51FF91D5CD370000E98D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19A51FFA1D5CD370000E98D8 /* Build configuration list for PBXNativeTarget "Project 13 - ZoomingIconsUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +518,7 @@
 				19A51FFC1D5CD370000E98D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
