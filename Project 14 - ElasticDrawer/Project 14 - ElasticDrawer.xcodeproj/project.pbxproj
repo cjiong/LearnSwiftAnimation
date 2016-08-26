@@ -14,6 +14,8 @@
 		192835521D6E1AF600FD6E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192835501D6E1AF600FD6E7D /* LaunchScreen.storyboard */; };
 		1928355D1D6E1AF700FD6E7D /* Project_14___ElasticDrawerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1928355C1D6E1AF700FD6E7D /* Project_14___ElasticDrawerTests.swift */; };
 		192835681D6E1AF700FD6E7D /* Project_14___ElasticDrawerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192835671D6E1AF700FD6E7D /* Project_14___ElasticDrawerUITests.swift */; };
+		19E98AD41D7008E1000704E7 /* DrawerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E98AD31D7008E1000704E7 /* DrawerTableViewController.swift */; };
+		19E98AD61D700910000704E7 /* DrawerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E98AD51D700910000704E7 /* DrawerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		192835631D6E1AF700FD6E7D /* Project 14 - ElasticDrawerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 14 - ElasticDrawerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		192835671D6E1AF700FD6E7D /* Project_14___ElasticDrawerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_14___ElasticDrawerUITests.swift"; sourceTree = "<group>"; };
 		192835691D6E1AF700FD6E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E98AD31D7008E1000704E7 /* DrawerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerTableViewController.swift; sourceTree = "<group>"; };
+		19E98AD51D700910000704E7 /* DrawerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				192835471D6E1AF600FD6E7D /* AppDelegate.swift */,
 				192835491D6E1AF600FD6E7D /* ViewController.swift */,
+				19E98AD51D700910000704E7 /* DrawerCell.swift */,
+				19E98AD31D7008E1000704E7 /* DrawerTableViewController.swift */,
 				1928354B1D6E1AF600FD6E7D /* Main.storyboard */,
 				1928354E1D6E1AF600FD6E7D /* Assets.xcassets */,
 				192835501D6E1AF600FD6E7D /* LaunchScreen.storyboard */,
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E98AD61D700910000704E7 /* DrawerCell.swift in Sources */,
 				1928354A1D6E1AF600FD6E7D /* ViewController.swift in Sources */,
 				192835481D6E1AF600FD6E7D /* AppDelegate.swift in Sources */,
+				19E98AD41D7008E1000704E7 /* DrawerTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +492,7 @@
 				1928356E1D6E1AF700FD6E7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1928356F1D6E1AF700FD6E7D /* Build configuration list for PBXNativeTarget "Project 14 - ElasticDrawerTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				192835711D6E1AF700FD6E7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		192835721D6E1AF700FD6E7D /* Build configuration list for PBXNativeTarget "Project 14 - ElasticDrawerUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				192835741D6E1AF700FD6E7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
