@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		197014D21D781592006CF01A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197014D11D781592006CF01A /* AppDelegate.swift */; };
+		197014D41D781592006CF01A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197014D31D781592006CF01A /* ViewController.swift */; };
+		197014D71D781592006CF01A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197014D51D781592006CF01A /* Main.storyboard */; };
+		197014D91D781592006CF01A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 197014D81D781592006CF01A /* Assets.xcassets */; };
+		197014DC1D781592006CF01A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197014DA1D781592006CF01A /* LaunchScreen.storyboard */; };
+		197014E71D781592006CF01A /* Project_15___MusicIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197014E61D781592006CF01A /* Project_15___MusicIndicatorTests.swift */; };
+		197014F21D781592006CF01A /* Project_15___MusicIndicatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197014F11D781592006CF01A /* Project_15___MusicIndicatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		197014E31D781592006CF01A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 197014C61D781592006CF01A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 197014CD1D781592006CF01A;
+			remoteInfo = "Project 15 - MusicIndicator";
+		};
+		197014EE1D781592006CF01A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 197014C61D781592006CF01A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 197014CD1D781592006CF01A;
+			remoteInfo = "Project 15 - MusicIndicator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		197014CE1D781592006CF01A /* Project 15 - MusicIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 15 - MusicIndicator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		197014D11D781592006CF01A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		197014D31D781592006CF01A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		197014D61D781592006CF01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		197014D81D781592006CF01A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		197014DB1D781592006CF01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		197014DD1D781592006CF01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		197014E21D781592006CF01A /* Project 15 - MusicIndicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 15 - MusicIndicatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		197014E61D781592006CF01A /* Project_15___MusicIndicatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_15___MusicIndicatorTests.swift"; sourceTree = "<group>"; };
+		197014E81D781592006CF01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		197014ED1D781592006CF01A /* Project 15 - MusicIndicatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 15 - MusicIndicatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		197014F11D781592006CF01A /* Project_15___MusicIndicatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_15___MusicIndicatorUITests.swift"; sourceTree = "<group>"; };
+		197014F31D781592006CF01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		197014CB1D781592006CF01A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197014DF1D781592006CF01A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197014EA1D781592006CF01A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		197014C51D781592006CF01A = {
+			isa = PBXGroup;
+			children = (
+				197014D01D781592006CF01A /* Project 15 - MusicIndicator */,
+				197014E51D781592006CF01A /* Project 15 - MusicIndicatorTests */,
+				197014F01D781592006CF01A /* Project 15 - MusicIndicatorUITests */,
+				197014CF1D781592006CF01A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		197014CF1D781592006CF01A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				197014CE1D781592006CF01A /* Project 15 - MusicIndicator.app */,
+				197014E21D781592006CF01A /* Project 15 - MusicIndicatorTests.xctest */,
+				197014ED1D781592006CF01A /* Project 15 - MusicIndicatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		197014D01D781592006CF01A /* Project 15 - MusicIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				197014D11D781592006CF01A /* AppDelegate.swift */,
+				197014D31D781592006CF01A /* ViewController.swift */,
+				197014D51D781592006CF01A /* Main.storyboard */,
+				197014D81D781592006CF01A /* Assets.xcassets */,
+				197014DA1D781592006CF01A /* LaunchScreen.storyboard */,
+				197014DD1D781592006CF01A /* Info.plist */,
+			);
+			path = "Project 15 - MusicIndicator";
+			sourceTree = "<group>";
+		};
+		197014E51D781592006CF01A /* Project 15 - MusicIndicatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				197014E61D781592006CF01A /* Project_15___MusicIndicatorTests.swift */,
+				197014E81D781592006CF01A /* Info.plist */,
+			);
+			path = "Project 15 - MusicIndicatorTests";
+			sourceTree = "<group>";
+		};
+		197014F01D781592006CF01A /* Project 15 - MusicIndicatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				197014F11D781592006CF01A /* Project_15___MusicIndicatorUITests.swift */,
+				197014F31D781592006CF01A /* Info.plist */,
+			);
+			path = "Project 15 - MusicIndicatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		197014CD1D781592006CF01A /* Project 15 - MusicIndicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 197014F61D781592006CF01A /* Build configuration list for PBXNativeTarget "Project 15 - MusicIndicator" */;
+			buildPhases = (
+				197014CA1D781592006CF01A /* Sources */,
+				197014CB1D781592006CF01A /* Frameworks */,
+				197014CC1D781592006CF01A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project 15 - MusicIndicator";
+			productName = "Project 15 - MusicIndicator";
+			productReference = 197014CE1D781592006CF01A /* Project 15 - MusicIndicator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		197014E11D781592006CF01A /* Project 15 - MusicIndicatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 197014F91D781592006CF01A /* Build configuration list for PBXNativeTarget "Project 15 - MusicIndicatorTests" */;
+			buildPhases = (
+				197014DE1D781592006CF01A /* Sources */,
+				197014DF1D781592006CF01A /* Frameworks */,
+				197014E01D781592006CF01A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				197014E41D781592006CF01A /* PBXTargetDependency */,
+			);
+			name = "Project 15 - MusicIndicatorTests";
+			productName = "Project 15 - MusicIndicatorTests";
+			productReference = 197014E21D781592006CF01A /* Project 15 - MusicIndicatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		197014EC1D781592006CF01A /* Project 15 - MusicIndicatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 197014FC1D781592006CF01A /* Build configuration list for PBXNativeTarget "Project 15 - MusicIndicatorUITests" */;
+			buildPhases = (
+				197014E91D781592006CF01A /* Sources */,
+				197014EA1D781592006CF01A /* Frameworks */,
+				197014EB1D781592006CF01A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				197014EF1D781592006CF01A /* PBXTargetDependency */,
+			);
+			name = "Project 15 - MusicIndicatorUITests";
+			productName = "Project 15 - MusicIndicatorUITests";
+			productReference = 197014ED1D781592006CF01A /* Project 15 - MusicIndicatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		197014C61D781592006CF01A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Jiong;
+				TargetAttributes = {
+					197014CD1D781592006CF01A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					197014E11D781592006CF01A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 197014CD1D781592006CF01A;
+					};
+					197014EC1D781592006CF01A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 197014CD1D781592006CF01A;
+					};
+				};
+			};
+			buildConfigurationList = 197014C91D781592006CF01A /* Build configuration list for PBXProject "Project 15 - MusicIndicator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 197014C51D781592006CF01A;
+			productRefGroup = 197014CF1D781592006CF01A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				197014CD1D781592006CF01A /* Project 15 - MusicIndicator */,
+				197014E11D781592006CF01A /* Project 15 - MusicIndicatorTests */,
+				197014EC1D781592006CF01A /* Project 15 - MusicIndicatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		197014CC1D781592006CF01A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197014DC1D781592006CF01A /* LaunchScreen.storyboard in Resources */,
+				197014D91D781592006CF01A /* Assets.xcassets in Resources */,
+				197014D71D781592006CF01A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197014E01D781592006CF01A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197014EB1D781592006CF01A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		197014CA1D781592006CF01A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197014D41D781592006CF01A /* ViewController.swift in Sources */,
+				197014D21D781592006CF01A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197014DE1D781592006CF01A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197014E71D781592006CF01A /* Project_15___MusicIndicatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197014E91D781592006CF01A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197014F21D781592006CF01A /* Project_15___MusicIndicatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		197014E41D781592006CF01A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 197014CD1D781592006CF01A /* Project 15 - MusicIndicator */;
+			targetProxy = 197014E31D781592006CF01A /* PBXContainerItemProxy */;
+		};
+		197014EF1D781592006CF01A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 197014CD1D781592006CF01A /* Project 15 - MusicIndicator */;
+			targetProxy = 197014EE1D781592006CF01A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		197014D51D781592006CF01A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				197014D61D781592006CF01A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		197014DA1D781592006CF01A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				197014DB1D781592006CF01A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		197014F41D781592006CF01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		197014F51D781592006CF01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		197014F71D781592006CF01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project 15 - MusicIndicator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-15---MusicIndicator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		197014F81D781592006CF01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project 15 - MusicIndicator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-15---MusicIndicator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		197014FA1D781592006CF01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project 15 - MusicIndicatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-15---MusicIndicatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 15 - MusicIndicator.app/Project 15 - MusicIndicator";
+			};
+			name = Debug;
+		};
+		197014FB1D781592006CF01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project 15 - MusicIndicatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-15---MusicIndicatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project 15 - MusicIndicator.app/Project 15 - MusicIndicator";
+			};
+			name = Release;
+		};
+		197014FD1D781592006CF01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Project 15 - MusicIndicatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-15---MusicIndicatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Project 15 - MusicIndicator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		197014FE1D781592006CF01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Project 15 - MusicIndicatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-15---MusicIndicatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Project 15 - MusicIndicator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		197014C91D781592006CF01A /* Build configuration list for PBXProject "Project 15 - MusicIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				197014F41D781592006CF01A /* Debug */,
+				197014F51D781592006CF01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		197014F61D781592006CF01A /* Build configuration list for PBXNativeTarget "Project 15 - MusicIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				197014F71D781592006CF01A /* Debug */,
+				197014F81D781592006CF01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		197014F91D781592006CF01A /* Build configuration list for PBXNativeTarget "Project 15 - MusicIndicatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				197014FA1D781592006CF01A /* Debug */,
+				197014FB1D781592006CF01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		197014FC1D781592006CF01A /* Build configuration list for PBXNativeTarget "Project 15 - MusicIndicatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				197014FD1D781592006CF01A /* Debug */,
+				197014FE1D781592006CF01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 197014C61D781592006CF01A /* Project object */;
+}
