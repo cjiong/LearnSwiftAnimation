@@ -14,6 +14,7 @@
 		197014DC1D781592006CF01A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197014DA1D781592006CF01A /* LaunchScreen.storyboard */; };
 		197014E71D781592006CF01A /* Project_15___MusicIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197014E61D781592006CF01A /* Project_15___MusicIndicatorTests.swift */; };
 		197014F21D781592006CF01A /* Project_15___MusicIndicatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197014F11D781592006CF01A /* Project_15___MusicIndicatorUITests.swift */; };
+		19986A4C1D79BD2F00AD0151 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19986A4B1D79BD2F00AD0151 /* SongCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		197014ED1D781592006CF01A /* Project 15 - MusicIndicatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 15 - MusicIndicatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		197014F11D781592006CF01A /* Project_15___MusicIndicatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_15___MusicIndicatorUITests.swift"; sourceTree = "<group>"; };
 		197014F31D781592006CF01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19986A4B1D79BD2F00AD0151 /* SongCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				197014D11D781592006CF01A /* AppDelegate.swift */,
 				197014D31D781592006CF01A /* ViewController.swift */,
 				197014D51D781592006CF01A /* Main.storyboard */,
+				19986A4B1D79BD2F00AD0151 /* SongCell.swift */,
 				197014D81D781592006CF01A /* Assets.xcassets */,
 				197014DA1D781592006CF01A /* LaunchScreen.storyboard */,
 				197014DD1D781592006CF01A /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				197014D41D781592006CF01A /* ViewController.swift in Sources */,
+				19986A4C1D79BD2F00AD0151 /* SongCell.swift in Sources */,
 				197014D21D781592006CF01A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				197014F81D781592006CF01A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		197014F91D781592006CF01A /* Build configuration list for PBXNativeTarget "Project 15 - MusicIndicatorTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				197014FB1D781592006CF01A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		197014FC1D781592006CF01A /* Build configuration list for PBXNativeTarget "Project 15 - MusicIndicatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				197014FE1D781592006CF01A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
