@@ -49,6 +49,23 @@ Project 09 - [CircleProgressView](https://github.com/cjiong/LearnSwiftAnimation/
 
 
 ## Learning Resource
+
+[The Swift Programming Language](https://developer.apple.com/library/prerelease/content/documentation/Swift/Conceptual/Swift_Programming_Language/index.html)
+
+[Swift Standard Library](https://developer.apple.com/reference/swift)
+
+[Foundation Framework Reference](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/ObjC_classic/index.html#classes)
+
+[AppCoda](http://www.appcoda.com/)
+
+[DevelopersAcademy](http://developersacademy.io/blog/)
+
+[HackingWithSwift](https://www.hackingwithswift.com/)
+
+[SwiftGG](http://swift.gg)
+
+[Matthew Cheok](http://blog.matthewcheok.com/)
+
 ## Contact Me
 
 Weibo: [@陈陈陈炯](http://weibo.com/u/2415589437)
