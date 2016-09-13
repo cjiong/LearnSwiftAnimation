@@ -14,6 +14,7 @@
 		1909CEAB1D3A8E0F006E4D61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1909CEA91D3A8E0F006E4D61 /* LaunchScreen.storyboard */; };
 		1909CEB61D3A8E0F006E4D61 /* Project_11___StretchyHeaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1909CEB51D3A8E0F006E4D61 /* Project_11___StretchyHeaderTests.swift */; };
 		1909CEC11D3A8E0F006E4D61 /* Project_11___StretchyHeaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1909CEC01D3A8E0F006E4D61 /* Project_11___StretchyHeaderUITests.swift */; };
+		19ACB3601D883A65007B1A61 /* SceneryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ACB35F1D883A65007B1A61 /* SceneryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1909CEBC1D3A8E0F006E4D61 /* Project 11 - StretchyHeaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project 11 - StretchyHeaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1909CEC01D3A8E0F006E4D61 /* Project_11___StretchyHeaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project_11___StretchyHeaderUITests.swift"; sourceTree = "<group>"; };
 		1909CEC21D3A8E0F006E4D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19ACB35F1D883A65007B1A61 /* SceneryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				1909CEA01D3A8E0F006E4D61 /* AppDelegate.swift */,
 				1909CEA21D3A8E0F006E4D61 /* ViewController.swift */,
+				19ACB35F1D883A65007B1A61 /* SceneryCell.swift */,
 				1909CEA41D3A8E0F006E4D61 /* Main.storyboard */,
 				1909CEA71D3A8E0F006E4D61 /* Assets.xcassets */,
 				1909CEA91D3A8E0F006E4D61 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				1909CEA31D3A8E0F006E4D61 /* ViewController.swift in Sources */,
 				1909CEA11D3A8E0F006E4D61 /* AppDelegate.swift in Sources */,
+				19ACB3601D883A65007B1A61 /* SceneryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +491,7 @@
 				1909CEC71D3A8E0F006E4D61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1909CEC81D3A8E0F006E4D61 /* Build configuration list for PBXNativeTarget "Project 11 - StretchyHeaderTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +500,7 @@
 				1909CECA1D3A8E0F006E4D61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1909CECB1D3A8E0F006E4D61 /* Build configuration list for PBXNativeTarget "Project 11 - StretchyHeaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +509,7 @@
 				1909CECD1D3A8E0F006E4D61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
