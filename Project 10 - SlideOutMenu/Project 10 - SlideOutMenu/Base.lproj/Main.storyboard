@@ -28,16 +28,16 @@
             </objects>
             <point key="canvasLocation" x="199.5" y="327.5"/>
         </scene>
-        <!--Back TableVC-->
+        <!--Back Table View Controller-->
         <scene sceneID="Twb-da-UNs">
             <objects>
-                <tableViewController id="Fhc-nD-QNW" customClass="BackTableVC" customModule="Project_10___SlideOutMenu" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Fhc-nD-QNW" customClass="BackTableViewController" customModule="Project_10___SlideOutMenu" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="ZAc-1W-PIG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FriendRead" id="EJV-G2-wdr">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="First" id="EJV-G2-wdr">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EJV-G2-wdr" id="oah-is-MCT">
@@ -48,7 +48,7 @@
                                     <segue destination="0O2-Cz-Iht" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="XFX-Sa-RpK"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Article" id="7Q4-Wn-Tfg">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Second" id="7Q4-Wn-Tfg">
                                 <rect key="frame" x="0.0" y="72" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7Q4-Wn-Tfg" id="p58-O7-8wE">
@@ -59,7 +59,7 @@
                                     <segue destination="DIW-Nv-Oc5" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="b4Y-iZ-F0P"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReadLater" id="WGW-OB-zR1">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Thrid" id="WGW-OB-zR1">
                                 <rect key="frame" x="0.0" y="116" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WGW-OB-zR1" id="kea-Mp-7OJ">
@@ -99,10 +99,10 @@
             </objects>
             <point key="canvasLocation" x="637.5" y="1164.5"/>
         </scene>
-        <!--2-->
+        <!--second-->
         <scene sceneID="o6c-h1-6Bb">
             <objects>
-                <viewController id="DIW-Nv-Oc5" userLabel="2" customClass="Channel" customModule="Project_10___SlideOutMenu" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="DIW-Nv-Oc5" userLabel="second" customClass="SubViewController" customModule="Project_10___SlideOutMenu" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="h8g-eT-T61"/>
                         <viewControllerLayoutGuide type="bottom" id="1T8-gx-Dh3"/>
@@ -129,10 +129,10 @@
             </objects>
             <point key="canvasLocation" x="1118.5" y="327.5"/>
         </scene>
-        <!--1-->
+        <!--first-->
         <scene sceneID="MDe-dN-Wp6">
             <objects>
-                <viewController id="rkE-Qs-4De" userLabel="1" customClass="ReadLater" customModule="Project_10___SlideOutMenu" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="rkE-Qs-4De" userLabel="first" customClass="SubViewController" customModule="Project_10___SlideOutMenu" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FWd-nU-sUJ"/>
                         <viewControllerLayoutGuide type="bottom" id="QAj-rI-84Z"/>
@@ -159,10 +159,10 @@
             </objects>
             <point key="canvasLocation" x="1118.5" y="-409.5"/>
         </scene>
-        <!--3-->
+        <!--third-->
         <scene sceneID="dcy-4z-VvK">
             <objects>
-                <viewController id="0O2-Cz-Iht" userLabel="3" customClass="FriendRead" customModule="Project_10___SlideOutMenu" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0O2-Cz-Iht" userLabel="third" customClass="SubViewController" customModule="Project_10___SlideOutMenu" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4iz-FT-6sE"/>
                         <viewControllerLayoutGuide type="bottom" id="pfe-dW-lfB"/>
@@ -205,6 +205,6 @@
         <image name="3" width="750" height="1334"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="8W0-F7-w1a"/>
+        <segue reference="XFX-Sa-RpK"/>
     </inferredMetricsTieBreakers>
 </document>

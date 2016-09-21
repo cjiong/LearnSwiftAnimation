@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19AC10281D92B00F007BEF3F /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AC10271D92B00F007BEF3F /* SubViewController.swift */; };
+		19AC102C1D92B08A007BEF3F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AC102B1D92B08A007BEF3F /* SWRevealViewController.m */; };
+		19AC102E1D92B138007BEF3F /* BackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AC102D1D92B138007BEF3F /* BackTableViewController.swift */; };
 		19FE70B61D38AC8C00BCF5EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE70B51D38AC8C00BCF5EF /* AppDelegate.swift */; };
 		19FE70B81D38AC8C00BCF5EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE70B71D38AC8C00BCF5EF /* ViewController.swift */; };
 		19FE70BB1D38AC8C00BCF5EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FE70B91D38AC8C00BCF5EF /* Main.storyboard */; };
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19AC10271D92B00F007BEF3F /* SubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
+		19AC10291D92B089007BEF3F /* Project 10 - SlideOutMenu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Project 10 - SlideOutMenu-Bridging-Header.h"; sourceTree = "<group>"; };
+		19AC102A1D92B08A007BEF3F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		19AC102B1D92B08A007BEF3F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		19AC102D1D92B138007BEF3F /* BackTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableViewController.swift; sourceTree = "<group>"; };
 		19FE70B21D38AC8C00BCF5EF /* Project 10 - SlideOutMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 10 - SlideOutMenu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FE70B51D38AC8C00BCF5EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19FE70B71D38AC8C00BCF5EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,8 +105,13 @@
 		19FE70B41D38AC8C00BCF5EF /* Project 10 - SlideOutMenu */ = {
 			isa = PBXGroup;
 			children = (
+				19AC102A1D92B08A007BEF3F /* SWRevealViewController.h */,
+				19AC102B1D92B08A007BEF3F /* SWRevealViewController.m */,
+				19AC10291D92B089007BEF3F /* Project 10 - SlideOutMenu-Bridging-Header.h */,
 				19FE70B51D38AC8C00BCF5EF /* AppDelegate.swift */,
 				19FE70B71D38AC8C00BCF5EF /* ViewController.swift */,
+				19AC10271D92B00F007BEF3F /* SubViewController.swift */,
+				19AC102D1D92B138007BEF3F /* BackTableViewController.swift */,
 				19FE70B91D38AC8C00BCF5EF /* Main.storyboard */,
 				19FE70BC1D38AC8C00BCF5EF /* Assets.xcassets */,
 				19FE70BE1D38AC8C00BCF5EF /* LaunchScreen.storyboard */,
@@ -258,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19AC102E1D92B138007BEF3F /* BackTableViewController.swift in Sources */,
+				19AC10281D92B00F007BEF3F /* SubViewController.swift in Sources */,
 				19FE70B81D38AC8C00BCF5EF /* ViewController.swift in Sources */,
 				19FE70B61D38AC8C00BCF5EF /* AppDelegate.swift in Sources */,
+				19AC102C1D92B08A007BEF3F /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,11 +417,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Project 10 - SlideOutMenu/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-10---SlideOutMenu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Project 10 - SlideOutMenu/Project 10 - SlideOutMenu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -413,11 +432,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Project 10 - SlideOutMenu/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Jiong..Project-10---SlideOutMenu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Project 10 - SlideOutMenu/Project 10 - SlideOutMenu-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -488,6 +509,7 @@
 				19FE70DC1D38AC8C00BCF5EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19FE70DD1D38AC8C00BCF5EF /* Build configuration list for PBXNativeTarget "Project 10 - SlideOutMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +518,7 @@
 				19FE70DF1D38AC8C00BCF5EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19FE70E01D38AC8C00BCF5EF /* Build configuration list for PBXNativeTarget "Project 10 - SlideOutMenuUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +527,7 @@
 				19FE70E21D38AC8C00BCF5EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
