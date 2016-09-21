@@ -47,6 +47,12 @@ Project 09 - [CircleProgressView](https://github.com/cjiong/LearnSwiftAnimation/
 
 ![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2009%20-%20CircleProgressView/CircleProgressView.gif)
 
+Project 10 - [SlideOutMenu](https://github.com/cjiong/LearnSwiftAnimation/tree/master/Project%2010%20-%20SlideOutMenu)
+
+![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2010%20-%20SlideOutMenu/SlideOutMenu.gif)
+
+
+
 
 ## Learning Resource
 
