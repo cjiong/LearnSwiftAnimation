@@ -55,9 +55,17 @@ Project 11 - [StretchyHeader](https://github.com/cjiong/LearnSwiftAnimation/tree
 
 ![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2011%20-%20StretchyHeader/StretchyHeader.gif)
 
-Project 12 - [FloatingButton](https://github.com/cjiong/LearnSwiftAnimation/tree/master/Project%202%20-%20FloatingButton)
+Project 12 - [FloatingButton](https://github.com/cjiong/LearnSwiftAnimation/tree/master/Project%2012%20-%20FloatingButton)
 
-![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2011%20-%20StretchyHeader/StretchyHeader.gif)
+![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2012%20-%20FloatingButton/FloatingButton.gif)
+
+Project 13 - [ZoomingIcons](https://github.com/cjiong/LearnSwiftAnimation/tree/master/Project%2013%20-%20ZoomingIcons)
+
+![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2013%20-%20ZoomingIcons/ZoomingIcons.gif)
+
+Project 13 - [ZoomingIcons](https://github.com/cjiong/LearnSwiftAnimation/tree/master/Project%2013%20-%20ZoomingIcons)
+
+![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2013%20-%20ZoomingIcons/ZoomingIcons.gif)
 
 
 
