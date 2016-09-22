@@ -67,7 +67,13 @@ Project 13 - [ZoomingIcons](https://github.com/cjiong/LearnSwiftAnimation/tree/m
 
 ![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2013%20-%20ZoomingIcons/ZoomingIcons.gif)
 
+Project 14 - [ElasticDrawer](https://github.com/cjiong/LearnSwiftAnimation/tree/master/Project%2014%20-%20ElasticDrawer)
 
+![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2014%20-%20ElasticDrawer/ElasticDrawer.gif)
+
+Project 15 - [MusicIndicator](https://github.com/cjiong/LearnSwiftAnimation/tree/master/Project%2015%20-%20MusicIndicator)
+
+![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2015%20-%20MusicIndicator/MusicIndicator.gif)
 
 
 ## Learning Resource
