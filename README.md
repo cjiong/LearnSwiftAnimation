@@ -51,6 +51,14 @@ Project 10 - [SlideOutMenu](https://github.com/cjiong/LearnSwiftAnimation/tree/m
 
 ![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2010%20-%20SlideOutMenu/SlideOutMenu.gif)
 
+Project 11 - [StretchyHeader](https://github.com/cjiong/LearnSwiftAnimation/tree/master/Project%2011%20-%20StretchyHeader)
+
+![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2011%20-%20StretchyHeader/StretchyHeader.gif)
+
+Project 12 - [FloatingButton](https://github.com/cjiong/LearnSwiftAnimation/tree/master/Project%202%20-%20FloatingButton)
+
+![](https://github.com/cjiong/LearnSwiftAnimation/blob/master/Project%2011%20-%20StretchyHeader/StretchyHeader.gif)
+
 
 
 
