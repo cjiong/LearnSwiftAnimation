@@ -4,7 +4,7 @@
 
 ## About Project
 
-Some demo
+Some demo about swift animation.
 
 ## About Me
 
