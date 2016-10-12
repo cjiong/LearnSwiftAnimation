@@ -8,7 +8,7 @@ Some demo about swift animation.
 
 ## About Me
 
-I am Chen Jiong, a second-year college student at Guangdong University of Technology.
+I am Chen Jiong, a thrid-year college student at Guangdong University of Technology.
 
 ## Project Index & GIF Showcase
 
