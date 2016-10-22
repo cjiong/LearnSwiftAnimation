@@ -1,6 +1,6 @@
 # LearnSwiftAnimation
 
-![Language](https://img.shields.io/badge/language-Swift-orange.svg) [![apm](https://img.shields.io/apm/l/vim-mode.svg?maxAge=2592000)]()
+![Language](https://img.shields.io/badge/language-Swift-orange.svg) [![star this repo](http://github-svg-buttons.herokuapp.com/star.svg?user=cjiong&repo=LearnSwiftAnimation&style=flat&background=1081C1)](https://github.com/cjiong/LearnSwiftAnimation)  [![apm](https://img.shields.io/apm/l/vim-mode.svg?maxAge=2592000)]()
 
 ## About Project
 
