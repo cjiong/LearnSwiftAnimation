@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0810"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "199D53E41D01D84F00FCCDE4"
-               BuildableName = "Project 23 - CarouselEffect.app"
+               BuildableName = "Project 03 - CarouselEffect.app"
                BlueprintName = "Project 03 - CarouselEffect"
                ReferencedContainer = "container:Project 03 - CarouselEffect.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "199D53E41D01D84F00FCCDE4"
-            BuildableName = "Project 23 - CarouselEffect.app"
+            BuildableName = "Project 03 - CarouselEffect.app"
             BlueprintName = "Project 03 - CarouselEffect"
             ReferencedContainer = "container:Project 03 - CarouselEffect.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "199D53E41D01D84F00FCCDE4"
-            BuildableName = "Project 23 - CarouselEffect.app"
+            BuildableName = "Project 03 - CarouselEffect.app"
             BlueprintName = "Project 03 - CarouselEffect"
             ReferencedContainer = "container:Project 03 - CarouselEffect.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "199D53E41D01D84F00FCCDE4"
-            BuildableName = "Project 23 - CarouselEffect.app"
+            BuildableName = "Project 03 - CarouselEffect.app"
             BlueprintName = "Project 03 - CarouselEffect"
             ReferencedContainer = "container:Project 03 - CarouselEffect.xcodeproj">
          </BuildableReference>
