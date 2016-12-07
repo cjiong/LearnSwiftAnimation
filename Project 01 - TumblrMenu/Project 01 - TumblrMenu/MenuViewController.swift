@@ -31,13 +31,13 @@ class MenuViewController: UIViewController {
     @IBOutlet weak var bugattiLabel: UILabel!
     
     //MARK: 回到主页面
-    @IBAction func menuButtonDidTouch(sender: AnyObject) {
+    @IBAction func menuButtonDidTouch(_ sender: AnyObject) {
         
-        dismissViewControllerAnimated(true, completion: nil)
+        dismiss(animated: true, completion: nil)
         
     }
-    override func preferredStatusBarStyle() -> UIStatusBarStyle {
-        return UIStatusBarStyle.LightContent
+    override var preferredStatusBarStyle : UIStatusBarStyle {
+        return UIStatusBarStyle.lightContent
     }
     
     override func viewDidLoad() {

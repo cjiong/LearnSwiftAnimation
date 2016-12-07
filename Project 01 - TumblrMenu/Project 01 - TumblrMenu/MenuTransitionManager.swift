@@ -10,13 +10,13 @@ import UIKit
 
 class MenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning, UIViewControllerTransitioningDelegate {
     
-    private var presenting = false
+    fileprivate var presenting = false
     
-    func animateTransition(transitionContext: UIViewControllerContextTransitioning) {
+    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         
-        let container = transitionContext.containerView()
+        let container = transitionContext.containerView
         
-        let screens : (from:UIViewController, to:UIViewController) = (transitionContext.viewControllerForKey(UITransitionContextFromViewControllerKey)!, transitionContext.viewControllerForKey(UITransitionContextToViewControllerKey)!)
+        let screens : (from:UIViewController, to:UIViewController) = (transitionContext.viewController(forKey: UITransitionContextViewControllerKey.from)!, transitionContext.viewController(forKey: UITransitionContextViewControllerKey.to)!)
         
         let menuViewController = !self.presenting ? screens.from as! MenuViewController : screens.to as! MenuViewController
         let bottomViewController = !self.presenting ? screens.to as UIViewController : screens.from as UIViewController
@@ -30,12 +30,12 @@ class MenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning, UI
             
         }
         
-        container!.addSubview(bottomView)
-        container!.addSubview(menuView)
+        container.addSubview(bottomView!)
+        container.addSubview(menuView!)
         
-        let duration = self.transitionDuration(transitionContext)
+        let duration = self.transitionDuration(using: transitionContext)
         
-        UIView.animateWithDuration(duration, delay: 0.0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0.8, options: [], animations: {
+        UIView.animate(withDuration: duration, delay: 0.0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0.8, options: [], animations: {
             
             if (self.presenting){
                 
@@ -50,17 +50,17 @@ class MenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning, UI
             }, completion: { finished in
                 
                 transitionContext.completeTransition(true)
-                UIApplication.sharedApplication().keyWindow!.addSubview(screens.to.view)
+                UIApplication.shared.keyWindow!.addSubview(screens.to.view)
                 
         })
         
     }
     
-    func offstage(amount: CGFloat) -> CGAffineTransform {
-        return CGAffineTransformMakeTranslation(amount, 0)
+    func offstage(_ amount: CGFloat) -> CGAffineTransform {
+        return CGAffineTransform(translationX: amount, y: 0)
     }
     
-    func offStageMenuController(menuViewController: MenuViewController) {
+    func offStageMenuController(_ menuViewController: MenuViewController) {
         
         menuViewController.view.alpha = 0
         
@@ -87,41 +87,41 @@ class MenuTransitionManager: NSObject, UIViewControllerAnimatedTransitioning, UI
         menuViewController.bugattiLabel.transform = self.offstage(bottomRowOffset)
     }
     
-    func onStageMenuViewController(menuViewController: MenuViewController) {
+    func onStageMenuViewController(_ menuViewController: MenuViewController) {
         
         menuViewController.view.alpha = 1
         
-        menuViewController.volkswagenButton.transform = CGAffineTransformIdentity
-        menuViewController.volkswagenLabel.transform = CGAffineTransformIdentity
+        menuViewController.volkswagenButton.transform = CGAffineTransform.identity
+        menuViewController.volkswagenLabel.transform = CGAffineTransform.identity
         
-        menuViewController.benzButton.transform = CGAffineTransformIdentity
-        menuViewController.benzLabel.transform = CGAffineTransformIdentity
+        menuViewController.benzButton.transform = CGAffineTransform.identity
+        menuViewController.benzLabel.transform = CGAffineTransform.identity
         
-        menuViewController.ferrariButton.transform = CGAffineTransformIdentity
-        menuViewController.ferrariLabel.transform = CGAffineTransformIdentity
+        menuViewController.ferrariButton.transform = CGAffineTransform.identity
+        menuViewController.ferrariLabel.transform = CGAffineTransform.identity
         
-        menuViewController.lamborghiniButton.transform = CGAffineTransformIdentity
-        menuViewController.lamborghiniLabel.transform = CGAffineTransformIdentity
+        menuViewController.lamborghiniButton.transform = CGAffineTransform.identity
+        menuViewController.lamborghiniLabel.transform = CGAffineTransform.identity
         
-        menuViewController.bentleyButton.transform = CGAffineTransformIdentity
-        menuViewController.bentleyLabel.transform = CGAffineTransformIdentity
+        menuViewController.bentleyButton.transform = CGAffineTransform.identity
+        menuViewController.bentleyLabel.transform = CGAffineTransform.identity
         
-        menuViewController.bugattiButton.transform = CGAffineTransformIdentity
-        menuViewController.bugattiLabel.transform = CGAffineTransformIdentity
+        menuViewController.bugattiButton.transform = CGAffineTransform.identity
+        menuViewController.bugattiLabel.transform = CGAffineTransform.identity
     }
     
-    func transitionDuration(transitionContext: UIViewControllerContextTransitioning?) -> NSTimeInterval {
+    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return 0.5
     }
     
-    func animationControllerForPresentedController(presented: UIViewController, presentingController presenting: UIViewController, sourceController source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         
         self.presenting = true
         return self
         
     }
     
-    func animationControllerForDismissedController(dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
        
         self.presenting = false
         return self
