@@ -15,24 +15,24 @@ class ViewController: UIViewController {
     @IBOutlet weak var lockBorder: UIImageView!
     @IBOutlet weak var lockKeyhole: UIButton!
     
-    @IBAction func buttonDidTouch(sender: AnyObject) {
+    @IBAction func buttonDidTouch(_ sender: AnyObject) {
         
         openLock()
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        UIApplication.sharedApplication().statusBarHidden = true
+        UIApplication.shared.isStatusBarHidden = true
     }
     
     func openLock() {
         
-        UIView.animateWithDuration(0.5, delay: 0.5, options: [], animations: {
+        UIView.animate(withDuration: 0.5, delay: 0.5, options: [], animations: {
             
-            self.lockKeyhole.transform = CGAffineTransformMakeRotation(CGFloat(M_PI))
+            self.lockKeyhole.transform = CGAffineTransform(rotationAngle: CGFloat(M_PI))
             }, completion: {_ in
-                UIView.animateWithDuration(0.8, delay: 0.2, options: [], animations: {
+                UIView.animate(withDuration: 0.8, delay: 0.2, options: [], animations: {
                     
                     let deltaY = self.lockBorder.frame.maxY
                     
