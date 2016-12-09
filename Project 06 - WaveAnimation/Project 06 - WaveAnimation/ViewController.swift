@@ -26,38 +26,38 @@ class ViewController: UIViewController {
         circle3.clipsToBounds = true
     }
 
-    @IBAction func waveButtonDidTapped(sender: AnyObject) {
+    @IBAction func waveButtonDidTapped(_ sender: AnyObject) {
         
-        UIView.animateWithDuration(3.0, delay: 0.0, options: [.CurveEaseInOut, .Repeat], animations: {
+        UIView.animate(withDuration: 3.0, delay: 0.0, options: .repeat, animations: {
             
-            self.circle3.transform = CGAffineTransformMakeScale(8.0, 8.0)
+            self.circle3.transform = CGAffineTransform(scaleX: 8.0, y: 8.0)
             self.circle3.alpha = 0.0
             
             }, completion: { _ in
                 
-                self.circle3.transform = CGAffineTransformIdentity
+                self.circle3.transform = CGAffineTransform.identity
                 self.circle3.alpha = 1.0
         })
         
-        UIView.animateWithDuration(3.0, delay: 0.3, options: [.CurveEaseInOut, .Repeat], animations: {
+        UIView.animate(withDuration: 3.0, delay: 0.3, options: .repeat, animations: {
             
-            self.circle2.transform = CGAffineTransformMakeScale(8.0, 8.0)
+            self.circle2.transform = CGAffineTransform(scaleX: 8.0, y: 8.0)
             self.circle2.alpha = 0.0
             
             }, completion: { _ in
                 
-                self.circle2.transform = CGAffineTransformIdentity
+                self.circle2.transform = CGAffineTransform.identity
                 self.circle2.alpha = 1.0
         })
         
-        UIView.animateWithDuration(3.0, delay: 0.6, options: [.CurveEaseInOut, .Repeat], animations: {
+        UIView.animate(withDuration: 3.0, delay: 0.6, options: .repeat, animations: {
             
-            self.circle1.transform = CGAffineTransformMakeScale(8.0, 8.0)
+            self.circle1.transform = CGAffineTransform(scaleX: 8.0, y: 8.0)
             self.circle1.alpha = 0.0
             
             }, completion: { _ in
                 
-                self.circle1.transform = CGAffineTransformIdentity
+                self.circle1.transform = CGAffineTransform.identity
                 self.circle1.alpha = 1.0
         })
 
