@@ -12,15 +12,15 @@ class SubViewController: UIViewController {
 
     override func viewDidLoad() {
         
-        UIApplication.sharedApplication().statusBarHidden = true
-        self.navigationController?.navigationBarHidden = true
+        UIApplication.shared.isStatusBarHidden = true
+        self.navigationController?.isNavigationBarHidden = true
         
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         
     }
     
-    override func preferredStatusBarStyle() -> UIStatusBarStyle {
-        return .LightContent
+    override var preferredStatusBarStyle : UIStatusBarStyle {
+        return .lightContent
     }
 
 }
